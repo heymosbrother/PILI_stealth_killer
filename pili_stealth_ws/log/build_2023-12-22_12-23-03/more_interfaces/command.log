@@ -1,0 +1,4 @@
+Invoking command in '/root/PILI_stealth_killer/pili_stealth_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/more_interfaces -- -j8 -l8
+Invoked command in '/root/PILI_stealth_killer/pili_stealth_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/more_interfaces -- -j8 -l8
+Invoking command in '/root/PILI_stealth_killer/pili_stealth_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/PILI_stealth_killer/pili_stealth_ws/build/more_interfaces
+Invoked command in '/root/PILI_stealth_killer/pili_stealth_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/PILI_stealth_killer/pili_stealth_ws/build/more_interfaces

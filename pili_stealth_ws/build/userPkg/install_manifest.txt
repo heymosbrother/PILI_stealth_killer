@@ -1,0 +1,17 @@
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/lib/userPkg/command_service_server
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/lib/userPkg/command_service_client
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/ament_index/resource_index/package_run_dependencies/userPkg
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/ament_index/resource_index/parent_prefix_path/userPkg
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/ament_prefix_path.sh
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/ament_prefix_path.dsv
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/path.sh
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/path.dsv
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.bash
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.sh
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.zsh
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.dsv
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/package.dsv
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/ament_index/resource_index/packages/userPkg
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/cmake/userPkgConfig.cmake
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/cmake/userPkgConfig-version.cmake
+/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/package.xml

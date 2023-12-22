@@ -1,0 +1,11 @@
+/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg/CMakeFiles/uninstall.dir
+/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg/CMakeFiles/userPkg_uninstall.dir
+/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg/CMakeFiles/command_service_server.dir
+/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg/CMakeFiles/command_service_client.dir
+/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg/CMakeFiles/test.dir
+/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg/CMakeFiles/edit_cache.dir
+/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg/CMakeFiles/rebuild_cache.dir
+/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg/CMakeFiles/list_install_components.dir
+/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg/CMakeFiles/install.dir
+/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg/CMakeFiles/install/local.dir
+/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg/CMakeFiles/install/strip.dir

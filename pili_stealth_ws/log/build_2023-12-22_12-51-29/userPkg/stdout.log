@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/command_service_server.dir/src/command_service_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/command_service_client.dir/src/command_service_client.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable command_service_client[0m
+[ 75%] Built target command_service_client

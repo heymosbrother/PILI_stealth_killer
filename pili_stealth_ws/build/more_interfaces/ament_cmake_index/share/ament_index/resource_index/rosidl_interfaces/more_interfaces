@@ -1,0 +1,6 @@
+msg/Command.idl
+msg/Command.msg
+srv/CommandService.idl
+srv/CommandService.srv
+srv/CommandService_Request.msg
+srv/CommandService_Response.msg

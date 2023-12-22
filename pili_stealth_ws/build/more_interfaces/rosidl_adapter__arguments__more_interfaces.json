@@ -1,0 +1,7 @@
+{
+  "package_name": "more_interfaces",
+  "non_idl_tuples": [
+    "/root/PILI_stealth_killer/pili_stealth_ws/src/more_interfaces:msg/Command.msg",
+    "/root/PILI_stealth_killer/pili_stealth_ws/src/more_interfaces:srv/CommandService.srv"
+  ]
+}

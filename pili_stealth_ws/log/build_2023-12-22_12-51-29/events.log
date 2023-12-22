@@ -1,0 +1,265 @@
+[0.000000] (-) TimerEvent: {}
+[0.000152] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.000184] (userPkg) JobQueued: {'identifier': 'userPkg', 'dependencies': OrderedDict([('more_interfaces', '/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces')])}
+[0.000206] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.044847] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.045458] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.046207] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/PILI_stealth_killer/pili_stealth_ws/build/more_interfaces', '--', '-j8', '-l8'], 'cwd': '/root/PILI_stealth_killer/pili_stealth_ws/build/more_interfaces', 'env': OrderedDict([('HOSTNAME', 'weiyun-laptop'), ('GIT_ASKPASS', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-05b79144-15ad-4032-8c2b-62f7f78f8064.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-07e8fcf6-2a69-4e7c-acd3-97ce20b002b4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-07e8fcf6-2a69-4e7c-acd3-97ce20b002b4.sock","/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-2d3b4b5019.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-07e8fcf6-2a69-4e7c-acd3-97ce20b002b4.sock'), ('AMENT_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg:/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/PILI_stealth_killer/pili_stealth_ws/build/more_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg:/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.079015] (-) TimerEvent: {}
+[0.179424] (-) TimerEvent: {}
+[0.210335] (more_interfaces) StdoutLine: {'line': b'[ 10%] Built target more_interfaces__rosidl_generator_c\n'}
+[0.215392] (more_interfaces) StdoutLine: {'line': b'[ 12%] Built target more_interfaces__cpp\n'}
+[0.219109] (more_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_more_interfaces\n'}
+[0.248909] (more_interfaces) StdoutLine: {'line': b'[ 23%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.252569] (more_interfaces) StdoutLine: {'line': b'[ 33%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.255720] (more_interfaces) StdoutLine: {'line': b'[ 43%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.263838] (more_interfaces) StdoutLine: {'line': b'[ 53%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[0.271169] (more_interfaces) StdoutLine: {'line': b'[ 64%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.279486] (-) TimerEvent: {}
+[0.285254] (more_interfaces) StdoutLine: {'line': b'[ 74%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[0.342932] (more_interfaces) StdoutLine: {'line': b'[ 74%] Built target more_interfaces\n'}
+[0.379582] (-) TimerEvent: {}
+[0.434490] (more_interfaces) StdoutLine: {'line': b'[ 76%] Built target more_interfaces__py\n'}
+[0.451999] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.452681] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[0.452869] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[0.453010] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[0.455549] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[0.456149] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[0.479689] (-) TimerEvent: {}
+[0.480899] (more_interfaces) StdoutLine: {'line': b'[ 76%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[0.500332] (more_interfaces) StdoutLine: {'line': b'[ 84%] Built target more_interfaces__rosidl_generator_py\n'}
+[0.535459] (more_interfaces) StdoutLine: {'line': b'[ 89%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.539808] (more_interfaces) StdoutLine: {'line': b'[ 94%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.557681] (more_interfaces) StdoutLine: {'line': b'[100%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.569218] (more_interfaces) CommandEnded: {'returncode': 0}
+[0.579750] (-) TimerEvent: {}
+[0.679975] (-) TimerEvent: {}
+[0.781721] (-) TimerEvent: {}
+[0.881979] (-) TimerEvent: {}
+[0.982424] (-) TimerEvent: {}
+[1.009632] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[1.018709] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/PILI_stealth_killer/pili_stealth_ws/build/more_interfaces'], 'cwd': '/root/PILI_stealth_killer/pili_stealth_ws/build/more_interfaces', 'env': OrderedDict([('HOSTNAME', 'weiyun-laptop'), ('GIT_ASKPASS', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-05b79144-15ad-4032-8c2b-62f7f78f8064.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-07e8fcf6-2a69-4e7c-acd3-97ce20b002b4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-07e8fcf6-2a69-4e7c-acd3-97ce20b002b4.sock","/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-2d3b4b5019.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-07e8fcf6-2a69-4e7c-acd3-97ce20b002b4.sock'), ('AMENT_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg:/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/PILI_stealth_killer/pili_stealth_ws/build/more_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg:/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/opt/ros/humble')]), 'shell': False}
+[1.031671] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.031993] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[1.032064] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[1.032125] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[1.032182] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.032240] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[1.032295] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/command__functions.c\n'}
+[1.032351] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/command__struct.h\n'}
+[1.032408] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/command__functions.h\n'}
+[1.032463] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/command__type_support.h\n'}
+[1.032519] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/command.h\n'}
+[1.032575] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv\n'}
+[1.032631] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail\n'}
+[1.032687] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/command_service__type_support.h\n'}
+[1.032748] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/command_service__struct.h\n'}
+[1.032805] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/command_service__functions.c\n'}
+[1.032862] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/command_service__functions.h\n'}
+[1.032920] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/command_service.h\n'}
+[1.032975] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[1.033032] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[1.033087] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[1.033150] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[1.033209] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[1.033263] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.033319] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[1.033374] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/command__rosidl_typesupport_fastrtps_c.h\n'}
+[1.033428] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv\n'}
+[1.033484] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail\n'}
+[1.033538] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/command_service__rosidl_typesupport_fastrtps_c.h\n'}
+[1.033593] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.033647] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[1.033702] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[1.033757] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[1.033812] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/command__rosidl_typesupport_introspection_c.h\n'}
+[1.033867] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/command__type_support.c\n'}
+[1.033922] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.033977] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv\n'}
+[1.034032] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail\n'}
+[1.034085] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/command_service__type_support.c\n'}
+[1.034141] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/command_service__rosidl_typesupport_introspection_c.h\n'}
+[1.034199] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.034254] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[1.034311] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[1.034366] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[1.034420] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/command.hpp\n'}
+[1.034474] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[1.034529] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/command__traits.hpp\n'}
+[1.034584] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/command__struct.hpp\n'}
+[1.034639] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/command__builder.hpp\n'}
+[1.034700] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv\n'}
+[1.034756] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail\n'}
+[1.034819] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/command_service__traits.hpp\n'}
+[1.034876] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/command_service__builder.hpp\n'}
+[1.034932] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/command_service__struct.hpp\n'}
+[1.034989] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/command_service.hpp\n'}
+[1.035044] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[1.035100] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[1.035154] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[1.035210] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.035265] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps\n'}
+[1.035321] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.035376] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv\n'}
+[1.035432] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail\n'}
+[1.035490] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/dds_fastrtps\n'}
+[1.035546] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/command_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.035602] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.035656] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[1.035715] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[1.035771] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[1.035828] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.035886] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/command__type_support.cpp\n'}
+[1.035942] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv\n'}
+[1.035999] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail\n'}
+[1.036055] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/command_service__type_support.cpp\n'}
+[1.036115] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/command_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.036176] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.036232] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.036487] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[1.036657] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[1.036722] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info\n'}
+[1.036788] (more_interfaces) StdoutLine: {'line': b'-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.036866] (more_interfaces) StdoutLine: {'line': b'-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.036943] (more_interfaces) StdoutLine: {'line': b'-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.037051] (more_interfaces) StdoutLine: {'line': b'-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.037213] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces\n'}
+[1.037341] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py\n'}
+[1.037465] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.037599] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.037684] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg\n'}
+[1.037742] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_command.py\n'}
+[1.037798] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_command_s.c\n'}
+[1.037856] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py\n'}
+[1.037921] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.037981] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv\n'}
+[1.038036] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv/__init__.py\n'}
+[1.038090] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv/_command_service_s.c\n'}
+[1.038146] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv/_command_service.py\n'}
+[1.038200] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so\n'}
+[1.038255] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.038310] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.038365] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.066364] (more_interfaces) StdoutLine: {'line': b"Listing '/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...\n"}
+[1.066531] (more_interfaces) StdoutLine: {'line': b"Listing '/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...\n"}
+[1.066607] (more_interfaces) StdoutLine: {'line': b"Listing '/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv'...\n"}
+[1.070192] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.070436] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.070693] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.070940] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so\n'}
+[1.071089] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/msg/Command.idl\n'}
+[1.071182] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/srv/CommandService.idl\n'}
+[1.071241] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/msg/Command.msg\n'}
+[1.071319] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/srv/CommandService.srv\n'}
+[1.071379] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/srv/CommandService_Request.msg\n'}
+[1.071435] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/srv/CommandService_Response.msg\n'}
+[1.071520] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[1.071580] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[1.071637] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[1.071700] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.071790] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[1.071851] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[1.071908] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[1.071964] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[1.072025] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[1.072080] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[1.072163] (more_interfaces) StdoutLine: {'line': b'-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[1.072224] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[1.072281] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.072361] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.072422] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.072482] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.072566] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.072632] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.072688] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.072766] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.072824] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.072900] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.072958] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.073035] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.073092] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.073168] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.073226] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.073309] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.073371] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.073427] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.073516] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.073576] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.073633] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.073686] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.073742] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.073823] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.073883] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[1.073941] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[1.074001] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[1.076293] (more_interfaces) CommandEnded: {'returncode': 0}
+[1.082496] (-) TimerEvent: {}
+[1.182969] (-) TimerEvent: {}
+[1.283336] (-) TimerEvent: {}
+[1.383708] (-) TimerEvent: {}
+[1.483959] (-) TimerEvent: {}
+[1.584300] (-) TimerEvent: {}
+[1.603488] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[1.603993] (userPkg) JobStarted: {'identifier': 'userPkg'}
+[1.666898] (userPkg) JobProgress: {'identifier': 'userPkg', 'progress': 'cmake'}
+[1.666982] (userPkg) JobProgress: {'identifier': 'userPkg', 'progress': 'build'}
+[1.667004] (userPkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg', '--', '-j8', '-l8'], 'cwd': '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg', 'env': OrderedDict([('HOSTNAME', 'weiyun-laptop'), ('GIT_ASKPASS', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-05b79144-15ad-4032-8c2b-62f7f78f8064.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-07e8fcf6-2a69-4e7c-acd3-97ce20b002b4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-07e8fcf6-2a69-4e7c-acd3-97ce20b002b4.sock","/tmp/.X11-unix/X0","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-2d3b4b5019.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-07e8fcf6-2a69-4e7c-acd3-97ce20b002b4.sock'), ('AMENT_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg:/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg:/opt/ros/humble')]), 'shell': False}
+[1.684391] (-) TimerEvent: {}
+[1.784647] (-) TimerEvent: {}
+[1.853034] (userPkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/command_service_server.dir/src/command_service_server.cpp.o\x1b[0m\n'}
+[1.884736] (-) TimerEvent: {}
+[1.910108] (userPkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/command_service_client.dir/src/command_service_client.cpp.o\x1b[0m\n'}
+[1.984837] (-) TimerEvent: {}
+[2.085241] (-) TimerEvent: {}
+[2.095174] (userPkg) StderrLine: {'line': b'\x1b[01m\x1b[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KwiringPi.h: No such file or directory\n'}
+[2.095375] (userPkg) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K<wiringPi.h>\x1b[m\x1b[K\n'}
+[2.095439] (userPkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.095494] (userPkg) StderrLine: {'line': b'compilation terminated.\n'}
+[2.102525] (userPkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/command_service_server.dir/build.make:76: CMakeFiles/command_service_server.dir/src/command_service_server.cpp.o] Error 1\n'}
+[2.102825] (userPkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/command_service_server.dir/all] Error 2\n'}
+[2.102904] (userPkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.185338] (-) TimerEvent: {}
+[2.285738] (-) TimerEvent: {}
+[2.386031] (-) TimerEvent: {}
+[2.486325] (-) TimerEvent: {}
+[2.586608] (-) TimerEvent: {}
+[2.692016] (-) TimerEvent: {}
+[2.792289] (-) TimerEvent: {}
+[2.892694] (-) TimerEvent: {}
+[2.993091] (-) TimerEvent: {}
+[3.093499] (-) TimerEvent: {}
+[3.193788] (-) TimerEvent: {}
+[3.294070] (-) TimerEvent: {}
+[3.394358] (-) TimerEvent: {}
+[3.494638] (-) TimerEvent: {}
+[3.595064] (-) TimerEvent: {}
+[3.695650] (-) TimerEvent: {}
+[3.796080] (-) TimerEvent: {}
+[3.896512] (-) TimerEvent: {}
+[3.996962] (-) TimerEvent: {}
+[4.097378] (-) TimerEvent: {}
+[4.197927] (-) TimerEvent: {}
+[4.298331] (-) TimerEvent: {}
+[4.398614] (-) TimerEvent: {}
+[4.499153] (-) TimerEvent: {}
+[4.599762] (-) TimerEvent: {}
+[4.700234] (-) TimerEvent: {}
+[4.800539] (-) TimerEvent: {}
+[4.900826] (-) TimerEvent: {}
+[5.001117] (-) TimerEvent: {}
+[5.101532] (-) TimerEvent: {}
+[5.201949] (-) TimerEvent: {}
+[5.302356] (-) TimerEvent: {}
+[5.402754] (-) TimerEvent: {}
+[5.503056] (-) TimerEvent: {}
+[5.603934] (-) TimerEvent: {}
+[5.657776] (userPkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable command_service_client\x1b[0m\n'}
+[5.704022] (-) TimerEvent: {}
+[5.804434] (-) TimerEvent: {}
+[5.857176] (userPkg) StdoutLine: {'line': b'[ 75%] Built target command_service_client\n'}
+[5.858295] (userPkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.860829] (userPkg) CommandEnded: {'returncode': 2}
+[5.904511] (-) TimerEvent: {}
+[5.990412] (userPkg) JobEnded: {'identifier': 'userPkg', 'rc': 2}
+[5.992114] (-) EventReactorShutdown: {}

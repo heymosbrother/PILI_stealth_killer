@@ -1,0 +1,136 @@
+[35m[1mConsolidate compiler generated dependencies of target command_service_server[0m
+[35m[1mConsolidate compiler generated dependencies of target command_service_client[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/command_service_server.dir/src/command_service_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/command_service_client.dir/src/command_service_client.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:2[m[K:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:[m[K In member function ‘[01m[Kvoid CommandServiceServer::handle_request(std::shared_ptr<more_interfaces::srv::CommandService_Request_<std::allocator<void> > >, std::shared_ptr<more_interfaces::srv::CommandService_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:40:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kallcmd[m[K’ was not declared in this scope
+   40 |         RCLCPP_INFO(get_logger(), "Received request %u", [01;31m[Kallcmd[m[K);
+      |                                                          [01;31m[K^~~~~~[m[K
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:33:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::basic_istream<char>[m[K’ and ‘[01m[Kint[m[K’)
+   24 |     std::cin >> request->mode = [01;31m[K2[m[K;
+      |                                 [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:625:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator=(std::basic_istream<_CharT, _Traits>&&) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+  625 |       [01;36m[Koperator[m[K=(basic_istream&& __rhs)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:625:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::basic_istream<char>&&[m[K’
+  625 |       operator=([01;36m[Kbasic_istream&& __rhs[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:27:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::basic_istream<char>[m[K’ and ‘[01m[Kint[m[K’)
+   27 |     std::cin >> request->vm1 =[01;31m[K22[m[K;
+      |                               [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:625:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator=(std::basic_istream<_CharT, _Traits>&&) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+  625 |       [01;36m[Koperator[m[K=(basic_istream&& __rhs)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:625:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::basic_istream<char>&&[m[K’
+  625 |       operator=([01;36m[Kbasic_istream&& __rhs[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:29:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::basic_istream<char>[m[K’ and ‘[01m[Kint[m[K’)
+   29 |     std::cin >> request->tm1 =[01;31m[K33[m[K;
+      |                               [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:625:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator=(std::basic_istream<_CharT, _Traits>&&) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+  625 |       [01;36m[Koperator[m[K=(basic_istream&& __rhs)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:625:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::basic_istream<char>&&[m[K’
+  625 |       operator=([01;36m[Kbasic_istream&& __rhs[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:31:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::basic_istream<char>[m[K’ and ‘[01m[Kint[m[K’)
+   31 |     std::cin >> request->vm2 =[01;31m[K88[m[K;
+      |                               [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:625:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator=(std::basic_istream<_CharT, _Traits>&&) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+  625 |       [01;36m[Koperator[m[K=(basic_istream&& __rhs)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:625:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::basic_istream<char>&&[m[K’
+  625 |       operator=([01;36m[Kbasic_istream&& __rhs[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:33:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before numeric constant
+   33 |     std::cin >> request->tm2[01;31m[K [m[K[32m[K66[m[K;
+      |                             [01;31m[K^[m[K[32m[K~~[m[K
+      |                             [32m[K;[m[K
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:36:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::basic_istream<char>[m[K’ and ‘[01m[Kint[m[K’)
+   36 |     std::cin >> request->vm3 =[01;31m[K99[m[K;
+      |                               [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:625:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator=(std::basic_istream<_CharT, _Traits>&&) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+  625 |       [01;36m[Koperator[m[K=(basic_istream&& __rhs)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:625:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::basic_istream<char>&&[m[K’
+  625 |       operator=([01;36m[Kbasic_istream&& __rhs[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:38:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::basic_istream<char>[m[K’ and ‘[01m[Kint[m[K’)
+   38 |     std::cin >> request->tm3 =[01;31m[K30[m[K;
+      |                               [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:625:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator=(std::basic_istream<_CharT, _Traits>&&) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+  625 |       [01;36m[Koperator[m[K=(basic_istream&& __rhs)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:625:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::basic_istream<char>&&[m[K’
+  625 |       operator=([01;36m[Kbasic_istream&& __rhs[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:40:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::basic_istream<char>[m[K’ and ‘[01m[Kint[m[K’)
+   40 |     std::cin >> request->ts = [01;31m[K25[m[K;
+      |                               [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:625:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator=(std::basic_istream<_CharT, _Traits>&&) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+  625 |       [01;36m[Koperator[m[K=(basic_istream&& __rhs)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:625:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::basic_istream<char>&&[m[K’
+  625 |       operator=([01;36m[Kbasic_istream&& __rhs[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/command_service_server.dir/build.make:76: CMakeFiles/command_service_server.dir/src/command_service_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/command_service_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/command_service_client.dir/build.make:76: CMakeFiles/command_service_client.dir/src/command_service_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/command_service_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

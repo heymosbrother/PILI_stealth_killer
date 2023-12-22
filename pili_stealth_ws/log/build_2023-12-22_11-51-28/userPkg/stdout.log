@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target command_service_client[0m
+[ 50%] Built target command_service_server
+[ 75%] [32mBuilding CXX object CMakeFiles/command_service_client.dir/src/command_service_client.cpp.o[0m
+[100%] [32m[1mLinking CXX executable command_service_client[0m
+[100%] Built target command_service_client
+-- Install configuration: ""
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/lib/userPkg/command_service_server
+-- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/lib/userPkg/command_service_server" to ""
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/lib/userPkg/command_service_client
+-- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/lib/userPkg/command_service_client" to ""
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/ament_index/resource_index/package_run_dependencies/userPkg
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/ament_index/resource_index/parent_prefix_path/userPkg
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/ament_prefix_path.sh
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/ament_prefix_path.dsv
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/path.sh
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/path.dsv
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.bash
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.sh
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.zsh
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.dsv
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/package.dsv
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/ament_index/resource_index/packages/userPkg
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/cmake/userPkgConfig.cmake
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/cmake/userPkgConfig-version.cmake
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/package.xml

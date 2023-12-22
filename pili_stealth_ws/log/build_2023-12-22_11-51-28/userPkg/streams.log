@@ -1,0 +1,29 @@
+[0.030s] Invoking command in '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg': AMENT_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/userPkg -- -j8 -l8
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target command_service_client[0m
+[0.068s] [ 50%] Built target command_service_server
+[0.071s] [ 75%] [32mBuilding CXX object CMakeFiles/command_service_client.dir/src/command_service_client.cpp.o[0m
+[2.389s] [100%] [32m[1mLinking CXX executable command_service_client[0m
+[2.491s] [100%] Built target command_service_client
+[2.499s] Invoked command in '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg' returned '0': AMENT_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/userPkg -- -j8 -l8
+[2.527s] Invoking command in '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg': AMENT_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/PILI_stealth_killer/pili_stealth_ws/build/userPkg
+[2.534s] -- Install configuration: ""
+[2.534s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/lib/userPkg/command_service_server
+[2.535s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/lib/userPkg/command_service_server" to ""
+[2.535s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/lib/userPkg/command_service_client
+[2.536s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/lib/userPkg/command_service_client" to ""
+[2.536s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/ament_index/resource_index/package_run_dependencies/userPkg
+[2.536s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/ament_index/resource_index/parent_prefix_path/userPkg
+[2.536s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/ament_prefix_path.sh
+[2.537s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/ament_prefix_path.dsv
+[2.537s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/path.sh
+[2.537s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/path.dsv
+[2.537s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.bash
+[2.537s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.sh
+[2.537s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.zsh
+[2.537s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.dsv
+[2.537s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/package.dsv
+[2.538s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/ament_index/resource_index/packages/userPkg
+[2.538s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/cmake/userPkgConfig.cmake
+[2.538s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/cmake/userPkgConfig-version.cmake
+[2.538s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/package.xml
+[2.540s] Invoked command in '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg' returned '0': AMENT_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/PILI_stealth_killer/pili_stealth_ws/build/userPkg

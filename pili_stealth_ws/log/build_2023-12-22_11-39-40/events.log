@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000274] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000306] (userPkg) JobQueued: {'identifier': 'userPkg', 'dependencies': OrderedDict()}
+[0.000322] (userPkg) JobStarted: {'identifier': 'userPkg'}
+[0.032246] (userPkg) JobProgress: {'identifier': 'userPkg', 'progress': 'cmake'}
+[0.032423] (userPkg) Command: {'cmd': ['/usr/bin/cmake', '/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg', '-DCMAKE_INSTALL_PREFIX=/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg'], 'cwd': '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg', 'env': OrderedDict([('HOSTNAME', 'weiyun-laptop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/PILI_stealth_killer/pili_stealth_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069946] (userPkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099580] (-) TimerEvent: {}
+[0.109240] (userPkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.114223] (userPkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.175360] (userPkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.180425] (userPkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.180656] (userPkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.180856] (userPkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.183862] (userPkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199675] (-) TimerEvent: {}
+[0.237502] (userPkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.242398] (userPkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.242497] (userPkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.242829] (userPkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.244256] (userPkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299762] (-) TimerEvent: {}
+[0.337034] (userPkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.389871] (userPkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399848] (-) TimerEvent: {}
+[0.416390] (userPkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.419011] (userPkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.424018] (userPkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.432838] (userPkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.444978] (userPkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.497745] (userPkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.499525] (userPkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499924] (-) TimerEvent: {}
+[0.564760] (userPkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.576021] (userPkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.597759] (userPkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600016] (-) TimerEvent: {}
+[0.605349] (userPkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.657255] (userPkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.657501] (userPkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700140] (-) TimerEvent: {}
+[0.710440] (userPkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.711191] (userPkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.800316] (-) TimerEvent: {}
+[0.826978] (userPkg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[0.827147] (userPkg) StderrLine: {'line': b'  By not providing "Findmore_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.827195] (userPkg) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.827235] (userPkg) StderrLine: {'line': b'  "more_interfaces", but CMake did not find one.\n'}
+[0.827273] (userPkg) StderrLine: {'line': b'\n'}
+[0.827323] (userPkg) StderrLine: {'line': b'  Could not find a package configuration file provided by "more_interfaces"\n'}
+[0.827363] (userPkg) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.827401] (userPkg) StderrLine: {'line': b'\n'}
+[0.827438] (userPkg) StderrLine: {'line': b'    more_interfacesConfig.cmake\n'}
+[0.827477] (userPkg) StderrLine: {'line': b'    more_interfaces-config.cmake\n'}
+[0.827516] (userPkg) StderrLine: {'line': b'\n'}
+[0.827553] (userPkg) StderrLine: {'line': b'  Add the installation prefix of "more_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[0.827591] (userPkg) StderrLine: {'line': b'  set "more_interfaces_DIR" to a directory containing one of the above files.\n'}
+[0.827629] (userPkg) StderrLine: {'line': b'  If "more_interfaces" provides a separate development package or SDK, be\n'}
+[0.827675] (userPkg) StderrLine: {'line': b'  sure it has been installed.\n'}
+[0.827715] (userPkg) StderrLine: {'line': b'\n'}
+[0.827752] (userPkg) StderrLine: {'line': b'\x1b[0m\n'}
+[0.827790] (userPkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.827835] (userPkg) StdoutLine: {'line': b'See also "/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg/CMakeFiles/CMakeOutput.log".\n'}
+[0.832694] (userPkg) CommandEnded: {'returncode': 1}
+[0.856750] (userPkg) JobEnded: {'identifier': 'userPkg', 'rc': 1}
+[0.867362] (-) EventReactorShutdown: {}

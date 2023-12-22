@@ -1,0 +1,67 @@
+[0.112s] Invoking command in '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg': CMAKE_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg:/opt/ros/humble /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/userPkg -- -j8 -l8
+[0.302s] [35m[1mConsolidate compiler generated dependencies of target command_service_client[0m
+[0.334s] [ 25%] [32mBuilding CXX object CMakeFiles/command_service_server.dir/src/command_service_server.cpp.o[0m
+[0.362s] [ 75%] Built target command_service_client
+[3.711s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:88:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[3.711s]    88 |     rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::UInt8>::SharedPtr uart_publisher_;
+[3.711s]       |                       [01;31m[K^~~~~~~~[m[K
+[3.712s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:88:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.712s]    88 |     rclcpp::Publisher<std_msgs::msg::UInt8[01;31m[K>[m[K::SharedPtr uart_publisher_;
+[3.712s]       |                                           [01;31m[K^[m[K
+[3.717s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:88:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.718s]    88 |     rclcpp::Publisher<std_msgs::msg::UInt8>::[01;31m[KSharedPtr[m[K uart_publisher_;
+[3.718s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[3.718s]       |                                                       [32m[K;[m[K
+[3.720s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:88:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kuart_publisher_[m[K’ does not name a type; did you mean ‘[01m[KUartPublisher[m[K’?
+[3.721s]    88 |     rclcpp::Publisher<std_msgs::msg::UInt8>::SharedPtr [01;31m[Kuart_publisher_[m[K;
+[3.721s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.721s]       |                                                        [32m[KUartPublisher[m[K
+[3.737s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:[m[K In constructor ‘[01m[KUartPublisher::UartPublisher()[m[K’:
+[3.737s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:57:24:[m[K [01;31m[Kerror: [m[K‘[01m[KserialOpen[m[K’ was not declared in this scope
+[3.737s]    57 |         uart_serial_ = [01;31m[KserialOpen[m[K("/dev/ttyS0", 115200); // Assuming UART0 and baud rate 115200
+[3.737s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[3.746s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:63:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kuart_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KUartPublisher[m[K’?
+[3.746s]    63 |         [01;31m[Kuart_publisher_[m[K = this->create_publisher<std_msgs::msg::UInt8>("uart_data", 10);
+[3.746s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.746s]       |         [32m[KUartPublisher[m[K
+[3.755s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:63:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[3.755s]    63 |         uart_publisher_ = this->create_publisher<[01;31m[Kstd_msgs[m[K::msg::UInt8>("uart_data", 10);
+[3.755s]       |                                                  [01;31m[K^~~~~~~~[m[K
+[3.755s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:63:33:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.756s]    63 |         uart_publisher_ = this->[01;31m[Kcreate_publisher<std_msgs::msg::UInt8>[m[K("uart_data", 10);
+[3.756s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.756s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:63:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KUartPublisher::create_publisher<<expression error> >(const char [10], int)[m[K’
+[3.756s]    63 |         uart_publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::UInt8>("uart_data", 10)[m[K;
+[3.756s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.757s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.757s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.757s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.757s]                  from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:2[m[K:
+[3.757s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[3.757s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[3.757s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.757s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.758s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:63:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.758s]    63 |         uart_publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::UInt8>("uart_data", 10)[m[K;
+[3.758s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.782s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:[m[K In member function ‘[01m[Kvoid UartPublisher::publishUartData()[m[K’:
+[3.783s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[KserialPutchar[m[K’ was not declared in this scope
+[3.783s]    73 |         [01;31m[KserialPutchar[m[K(uart_serial_, dataToSend);
+[3.783s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.795s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:77:13:[m[K [01;31m[Kerror: [m[K‘[01m[KserialDataAvail[m[K’ was not declared in this scope
+[3.795s]    77 |         if ([01;31m[KserialDataAvail[m[K(uart_serial_)) {
+[3.796s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.805s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:78:28:[m[K [01;31m[Kerror: [m[K‘[01m[KserialGetchar[m[K’ was not declared in this scope
+[3.805s]    78 |             receivedData = [01;31m[KserialGetchar[m[K(uart_serial_);
+[3.806s]       |                            [01;31m[K^~~~~~~~~~~~~[m[K
+[3.806s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:81:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ has not been declared
+[3.806s]    81 |             auto msg = [01;31m[Kstd_msgs[m[K::msg::UInt8();
+[3.806s]       |                        [01;31m[K^~~~~~~~[m[K
+[3.813s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:83:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kuart_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KUartPublisher[m[K’?
+[3.814s]    83 |             [01;31m[Kuart_publisher_[m[K->publish(msg);
+[3.814s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.814s]       |             [32m[KUartPublisher[m[K
+[4.704s] gmake[2]: *** [CMakeFiles/command_service_server.dir/build.make:76: CMakeFiles/command_service_server.dir/src/command_service_server.cpp.o] Error 1
+[4.705s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/command_service_server.dir/all] Error 2
+[4.705s] gmake: *** [Makefile:146: all] Error 2
+[4.708s] Invoked command in '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg' returned '2': CMAKE_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg:/opt/ros/humble /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/userPkg -- -j8 -l8

@@ -1,0 +1,45 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:2[m[K:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:[m[K In member function ‘[01m[Kvoid CommandServiceServer::handle_request(std::shared_ptr<more_interfaces::srv::CommandService_Request_<std::allocator<void> > >, std::shared_ptr<more_interfaces::srv::CommandService_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:40:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kallcmd[m[K’ was not declared in this scope
+   40 |         RCLCPP_INFO(get_logger(), "Received request %u", [01;31m[Kallcmd[m[K);
+      |                                                          [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:54:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 5 has type ‘[01m[Kmore_interfaces::srv::CommandService_Response_<std::allocator<void> >::_allcmd_type[m[K’ {aka ‘[01m[Kstd::array<unsigned char, 8>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   54 |     RCLCPP_INFO(node->get_logger(), [01;35m[K"All commands received: %u"[m[K,
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   55 |         [32m[Kresponse->allcmd[m[K);
+      |         [32m[K~~~~~~~~~~~~~~~~[m[K             
+      |                   [32m[K|[m[K
+      |                   [32m[Kmore_interfaces::srv::CommandService_Response_<std::allocator<void> >::_allcmd_type {aka std::array<unsigned char, 8>}[m[K
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:54:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   54 |     RCLCPP_INFO(node->get_logger(), "All commands received: [01;36m[K%u[m[K",
+      |                                                             [01;36m[K~^[m[K
+      |                                                              [01;36m[K|[m[K
+      |                                                              [01;36m[Kunsigned int[m[K
+gmake[2]: *** [CMakeFiles/command_service_server.dir/build.make:76: CMakeFiles/command_service_server.dir/src/command_service_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/command_service_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

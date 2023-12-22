@@ -1,0 +1,545 @@
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:14:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator>>[m[K’ (operand types are ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} and ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’})
+   24 |     [32m[Kstd::cin[m[K [01;31m[K>>[m[K [34m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |     [32m[K~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |          [32m[K|[m[K      [34m[K|[m[K
+      |          [32m[K|[m[K      [34m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type {aka unsigned char}[m[K
+      |          [32m[Kstd::istream {aka std::basic_istream<char>}[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:120:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__istream_type& (*)(std::basic_istream<_CharT, _Traits>::__istream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’ (near match)
+  120 |       [01;36m[Koperator[m[K>>(__istream_type& (*__pf)(__istream_type&))
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:120:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Kstd::basic_istream<char>::__istream_type& (*)(std::basic_istream<char>::__istream_type&)[m[K’ {aka ‘[01m[Kstd::basic_istream<char>& (*)(std::basic_istream<char>&)[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [01;31m[K|[m[K
+      |                 [01;31m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type {aka unsigned char}[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:124:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__ios_type& (*)(std::basic_istream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::__ios_type = std::basic_ios<char>][m[K’ (near match)
+  124 |       [01;36m[Koperator[m[K>>(__ios_type& (*__pf)(__ios_type&))
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:124:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Kstd::basic_istream<char>::__ios_type& (*)(std::basic_istream<char>::__ios_type&)[m[K’ {aka ‘[01m[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [01;31m[K|[m[K
+      |                 [01;31m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type {aka unsigned char}[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:131:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’ (near match)
+  131 |       [01;36m[Koperator[m[K>>(ios_base& (*__pf)(ios_base&))
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:131:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Kstd::ios_base& (*)(std::ios_base&)[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [01;31m[K|[m[K
+      |                 [01;31m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type {aka unsigned char}[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:168:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(bool&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’ (near match)
+  168 |       [01;36m[Koperator[m[K>>(bool& __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:168:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kbool&[m[K’ to a value of type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:172:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(short int&) [with _CharT = char; _Traits = std::char_traits<char>][m[K’ (near match)
+  172 |       [01;36m[Koperator[m[K>>(short& __n);
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:172:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kshort int&[m[K’ to a value of type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:175:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(short unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’ (near match)
+  175 |       [01;36m[Koperator[m[K>>(unsigned short& __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:175:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kshort unsigned int&[m[K’ to a value of type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:179:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(int&) [with _CharT = char; _Traits = std::char_traits<char>][m[K’ (near match)
+  179 |       [01;36m[Koperator[m[K>>(int& __n);
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:179:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kint&[m[K’ to a value of type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:182:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’ (near match)
+  182 |       [01;36m[Koperator[m[K>>(unsigned int& __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:182:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kunsigned int&[m[K’ to a value of type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:186:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’ (near match)
+  186 |       [01;36m[Koperator[m[K>>(long& __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:186:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Klong int&[m[K’ to a value of type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:190:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’ (near match)
+  190 |       [01;36m[Koperator[m[K>>(unsigned long& __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:190:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Klong unsigned int&[m[K’ to a value of type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:195:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long long int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’ (near match)
+  195 |       [01;36m[Koperator[m[K>>(long long& __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:195:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Klong long int&[m[K’ to a value of type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:199:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long long unsigned int&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’ (near match)
+  199 |       [01;36m[Koperator[m[K>>(unsigned long long& __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:199:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Klong long unsigned int&[m[K’ to a value of type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:214:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(float&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’ (near match)
+  214 |       [01;36m[Koperator[m[K>>(float& __f)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:214:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kfloat&[m[K’ to a value of type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:218:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(double&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’ (near match)
+  218 |       [01;36m[Koperator[m[K>>(double& __f)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:218:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kdouble&[m[K’ to a value of type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:222:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(long double&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’ (near match)
+  222 |       [01;36m[Koperator[m[K>>(long double& __f)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:222:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Klong double&[m[K’ to a value of type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:235:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(void*&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>][m[K’ (near match)
+  235 |       [01;36m[Koperator[m[K>>(void*& __p)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:235:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Kvoid*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [01;31m[K|[m[K
+      |                 [01;31m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type {aka unsigned char}[m[K
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kcannot bind rvalue ‘[01m[K(void*)((long int)((std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& request))->std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->more_interfaces::srv::CommandService_Request_<std::allocator<void> >::mode)[m[K’ to ‘[01m[Kvoid*&[m[K’
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:259:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::operator>>(std::basic_istream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>][m[K’ (near match)
+  259 |       [01;36m[Koperator[m[K>>(__streambuf_type* __sb);
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:259:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Kstd::basic_istream<char>::__streambuf_type*[m[K’ {aka ‘[01m[Kstd::basic_streambuf<char>*[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   24 |     std::cin >> [01;31m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [01;31m[K|[m[K
+      |                 [01;31m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type {aka unsigned char}[m[K
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koperator>>(int, int)[m[K’ (built-in)
+   24 |     [01;36m[Kstd::cin >> static_cast<uint8_t>(request->mode)[m[K;
+      |     [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:14:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} to ‘[01m[Kint[m[K’
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1485:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1485 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __in,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1485:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   24 |     std::cin >> static_cast<uint8_t>(request->mode[01;36m[K)[m[K;
+      |                                                   [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/istream:1016[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/istream.tcc:958:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT&)[m[K’
+  958 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/istream.tcc:958:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:51:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_CharT[m[K’ (‘[01m[Kchar[m[K’ and ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’})
+   24 |     std::cin >> static_cast<uint8_t>(request->mode[01;36m[K)[m[K;
+      |                                                   [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:756:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char&)[m[K’
+  756 |     [01;36m[Koperator[m[K>>(basic_istream<char, _Traits>& __in, unsigned char& __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:756:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& request))->std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->more_interfaces::srv::CommandService_Request_<std::allocator<void> >::mode[m[K’ (type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}) to type ‘[01m[Kunsigned char&[m[K’
+   24 |     std::cin >> [01;36m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:761:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char&)[m[K’
+  761 |     [01;36m[Koperator[m[K>>(basic_istream<char, _Traits>& __in, signed char& __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:761:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& request))->std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->more_interfaces::srv::CommandService_Request_<std::allocator<void> >::mode[m[K’ (type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}) to type ‘[01m[Ksigned char&[m[K’
+   24 |     std::cin >> [01;36m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:803:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT*)[m[K’
+  803 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:803:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[K_CharT*[m[K’ and ‘[01m[Kunsigned char[m[K’
+   24 |     std::cin >> static_cast<uint8_t>(request->mode[01;36m[K)[m[K;
+      |                                                   [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:846:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*)[m[K’
+  846 |     [01;36m[Koperator[m[K>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:846:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& request))->std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->more_interfaces::srv::CommandService_Request_<std::allocator<void> >::mode[m[K’ (type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}) to type ‘[01m[Kunsigned char*[m[K’
+   24 |     std::cin >> [01;36m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:852:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*)[m[K’
+  852 |     [01;36m[Koperator[m[K>>(basic_istream<char, _Traits>& __in, signed char* __s)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:852:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& request))->std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->more_interfaces::srv::CommandService_Request_<std::allocator<void> >::mode[m[K’ (type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}) to type ‘[01m[Ksigned char*[m[K’
+   24 |     std::cin >> [01;36m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/istream:1006:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Istream, class _Tp> _Istream&& std::operator>>(_Istream&&, _Tp&&)[m[K’
+ 1006 |     [01;36m[Koperator[m[K>>(_Istream&& __is, _Tp&& __x)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/istream:1006:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/usr/include/c++/11/istream: In substitution of ‘[01m[Ktemplate<class _Istream, class _Tp> _Istream&& std::operator>>(_Istream&&, _Tp&&) [with _Istream = std::basic_istream<char>&; _Tp = unsigned char][m[K’:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:51:[m[K   required from here
+[01m[K/usr/include/c++/11/istream:1006:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/iomanip:71:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Resetiosflags)[m[K’
+   71 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Resetiosflags __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:71:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& request))->std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->more_interfaces::srv::CommandService_Request_<std::allocator<void> >::mode[m[K’ (type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}) to type ‘[01m[Kstd::_Resetiosflags[m[K’
+   24 |     std::cin >> [01;36m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/iomanip:101:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setiosflags)[m[K’
+  101 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setiosflags __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:101:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& request))->std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->more_interfaces::srv::CommandService_Request_<std::allocator<void> >::mode[m[K’ (type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}) to type ‘[01m[Kstd::_Setiosflags[m[K’
+   24 |     std::cin >> [01;36m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/iomanip:132:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setbase)[m[K’
+  132 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setbase __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& request))->std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->more_interfaces::srv::CommandService_Request_<std::allocator<void> >::mode[m[K’ (type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}) to type ‘[01m[Kstd::_Setbase[m[K’
+   24 |     std::cin >> [01;36m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/iomanip:170:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setfill<_CharT>)[m[K’
+  170 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setfill<_CharT> __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:170:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::_Setfill<_CharT>[m[K’ and ‘[01m[Kunsigned char[m[K’
+   24 |     std::cin >> static_cast<uint8_t>(request->mode[01;36m[K)[m[K;
+      |                                                   [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/iomanip:200:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setprecision)[m[K’
+  200 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setprecision __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& request))->std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->more_interfaces::srv::CommandService_Request_<std::allocator<void> >::mode[m[K’ (type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}) to type ‘[01m[Kstd::_Setprecision[m[K’
+   24 |     std::cin >> [01;36m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/iomanip:230:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Setw)[m[K’
+  230 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Setw __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:230:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:17:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& request))->std::__shared_ptr_access<more_interfaces::srv::CommandService_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->more_interfaces::srv::CommandService_Request_<std::allocator<void> >::mode[m[K’ (type ‘[01m[Kmore_interfaces::srv::CommandService_Request_<std::allocator<void> >::_mode_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’}) to type ‘[01m[Kstd::_Setw[m[K’
+   24 |     std::cin >> [01;36m[Kstatic_cast<uint8_t>(request->mode)[m[K;
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/iomanip:264:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Get_money<_MoneyT>)[m[K’
+  264 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Get_money<_MoneyT> __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:264:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::_Get_money<_MoneyT>[m[K’ and ‘[01m[Kunsigned char[m[K’
+   24 |     std::cin >> static_cast<uint8_t>(request->mode[01;36m[K)[m[K;
+      |                                                   [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/iomanip:418:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::_Get_time<_CharT>)[m[K’
+  418 |     [01;36m[Koperator[m[K>>(basic_istream<_CharT, _Traits>& __is, _Get_time<_CharT> __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:418:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:24:51:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::_Get_time<_CharT>[m[K’ and ‘[01m[Kunsigned char[m[K’
+   24 |     std::cin >> static_cast<uint8_t>(request->mode[01;36m[K)[m[K;
+      |                                                   [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/command_service_client.dir/build.make:76: CMakeFiles/command_service_client.dir/src/command_service_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/command_service_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

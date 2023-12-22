@@ -1,0 +1,29 @@
+[0.071s] Invoking command in '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg': CMAKE_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg:/opt/ros/humble /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/userPkg -- -j8 -l8
+[0.167s] [35m[1mConsolidate compiler generated dependencies of target command_service_server[0m
+[0.198s] [ 25%] [32mBuilding CXX object CMakeFiles/command_service_server.dir/src/command_service_server.cpp.o[0m
+[0.209s] [ 75%] Built target command_service_client
+[4.993s] [100%] [32m[1mLinking CXX executable command_service_server[0m
+[5.260s] [100%] Built target command_service_server
+[5.280s] Invoked command in '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg' returned '0': CMAKE_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg:/opt/ros/humble /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/userPkg -- -j8 -l8
+[5.342s] Invoking command in '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg': CMAKE_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg:/opt/ros/humble /usr/bin/cmake --install /root/PILI_stealth_killer/pili_stealth_ws/build/userPkg
+[5.356s] -- Install configuration: ""
+[5.357s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/lib/userPkg/command_service_server
+[5.358s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/lib/userPkg/command_service_server" to ""
+[5.359s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/lib/userPkg/command_service_client
+[5.360s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/lib/userPkg/command_service_client" to ""
+[5.360s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/ament_index/resource_index/package_run_dependencies/userPkg
+[5.361s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/ament_index/resource_index/parent_prefix_path/userPkg
+[5.361s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/ament_prefix_path.sh
+[5.361s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/ament_prefix_path.dsv
+[5.361s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/path.sh
+[5.362s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/environment/path.dsv
+[5.362s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.bash
+[5.362s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.sh
+[5.362s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.zsh
+[5.362s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/local_setup.dsv
+[5.363s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/package.dsv
+[5.363s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/ament_index/resource_index/packages/userPkg
+[5.363s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/cmake/userPkgConfig.cmake
+[5.364s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/cmake/userPkgConfig-version.cmake
+[5.364s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/userPkg/share/userPkg/package.xml
+[5.372s] Invoked command in '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg' returned '0': CMAKE_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg:/opt/ros/humble /usr/bin/cmake --install /root/PILI_stealth_killer/pili_stealth_ws/build/userPkg

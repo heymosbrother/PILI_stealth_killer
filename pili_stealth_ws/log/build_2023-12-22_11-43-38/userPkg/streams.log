@@ -1,0 +1,53 @@
+[0.030s] Invoking command in '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg': AMENT_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/PILI_stealth_killer/pili_stealth_ws/src/userPkg -DCMAKE_INSTALL_PREFIX=/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg
+[0.038s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.124s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.141s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.142s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.146s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.201s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.202s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.260s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.362s] -- Found more_interfaces: 0.0.0 (/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/share/more_interfaces/cmake)
+[0.405s] WARNING: Package name "userPkg" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.413s] -- Configuring done
+[0.421s] -- Generating done
+[0.422s] -- Build files have been written to: /root/PILI_stealth_killer/pili_stealth_ws/build/userPkg
+[0.426s] Invoked command in '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg' returned '0': AMENT_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/PILI_stealth_killer/pili_stealth_ws/src/userPkg -DCMAKE_INSTALL_PREFIX=/root/PILI_stealth_killer/pili_stealth_ws/install/userPkg
+[0.427s] Invoking command in '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg': AMENT_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/userPkg -- -j8 -l8
+[0.462s] [ 50%] [32mBuilding CXX object CMakeFiles/command_service_client.dir/src/command_service_client.cpp.o[0m
+[0.462s] [ 50%] [32mBuilding CXX object CMakeFiles/command_service_server.dir/src/command_service_server.cpp.o[0m
+[2.176s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.176s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:50:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+[2.176s]    50 |             rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS)
+[2.176s]       |                     [01;31m[K^~~~~~~~[m[K
+[2.176s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.176s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.176s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.176s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.176s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.177s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.177s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.177s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.177s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.177s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.177s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.177s]                  from [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:2[m[K:
+[2.177s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:58:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 5 has type ‘[01m[Kmore_interfaces::srv::CommandService_Response_<std::allocator<void> >::_allcmd_type[m[K’ {aka ‘[01m[Kstd::array<unsigned char, 8>[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.177s]    58 |         RCLCPP_INFO(node->get_logger(), [01;35m[K"All commands received: %u"[m[K, [32m[Kresponse->allcmd[m[K);
+[2.177s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+[2.177s]       |                                                                                [32m[K|[m[K
+[2.177s]       |                                                                                [32m[Kmore_interfaces::srv::CommandService_Response_<std::allocator<void> >::_allcmd_type {aka std::array<unsigned char, 8>}[m[K
+[2.177s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:58:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.177s]    58 |         RCLCPP_INFO(node->get_logger(), "All commands received: [01;36m[K%u[m[K", response->allcmd);
+[2.177s]       |                                                                 [01;36m[K~^[m[K
+[2.177s]       |                                                                  [01;36m[K|[m[K
+[2.177s]       |                                                                  [01;36m[Kunsigned int[m[K
+[2.611s] gmake[2]: *** [CMakeFiles/command_service_client.dir/build.make:76: CMakeFiles/command_service_client.dir/src/command_service_client.cpp.o] Error 1
+[2.611s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/command_service_client.dir/all] Error 2
+[2.611s] gmake[1]: *** Waiting for unfinished jobs....
+[2.952s] [ 75%] [32m[1mLinking CXX executable command_service_server[0m
+[3.081s] [ 75%] Built target command_service_server
+[3.082s] gmake: *** [Makefile:146: all] Error 2
+[3.083s] Invoked command in '/root/PILI_stealth_killer/pili_stealth_ws/build/userPkg' returned '2': AMENT_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/PILI_stealth_killer/pili_stealth_ws/install/more_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/userPkg -- -j8 -l8

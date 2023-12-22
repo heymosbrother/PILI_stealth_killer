@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from more_interfaces/srv/CommandService.srv
+// generated code does not contain a copyright notice
+
+
+module more_interfaces {
+  module srv {
+    struct CommandService_Request {
+      uint8 mode;
+
+      uint8 vm1;
+
+      uint8 tm1;
+
+      uint8 vm2;
+
+      uint8 tm2;
+
+      uint8 vm3;
+
+      uint8 tm3;
+
+      uint8 ts;
+    };
+    typedef uint8 uint8__8[8];
+    struct CommandService_Response {
+      uint8__8 allcmd;
+    };
+  };
+};

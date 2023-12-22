@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target command_service_client[0m
+[ 50%] Built target command_service_server
+[ 75%] [32mBuilding CXX object CMakeFiles/command_service_client.dir/src/command_service_client.cpp.o[0m
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_client.cpp:51:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+   51 |             rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS)
+      |                     [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/command_service_client.dir/build.make:76: CMakeFiles/command_service_client.dir/src/command_service_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/command_service_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
