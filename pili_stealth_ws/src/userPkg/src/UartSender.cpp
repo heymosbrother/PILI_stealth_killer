@@ -37,7 +37,7 @@ int main() {
     UartSender uartSender("/dev/ttyS0", 115200);
 
     // Your code for sending data...
-    uint8_t dataToSend[] = {1, 2, 3, 4, 5, 6, 7, 8};
+    uint8_t dataToSend[] = [1, 2, 3, 4, 5, 6, 7, 8];
     uartSender.sendData(dataToSend, sizeof(dataToSend));
 
     return 0;
