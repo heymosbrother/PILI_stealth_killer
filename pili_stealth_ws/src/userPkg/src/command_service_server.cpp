@@ -40,12 +40,12 @@ private:
         response->allcmd[6] = (request->tm3 == 255) ? 'n' : static_cast<uint8_t>(request->tm3);
         response->allcmd[7] = (request->ts == 255) ? 'n' : static_cast<uint8_t>(request->ts);
         
-        uint8_t sendcmd[8] = {request->mode,request->vm1,request->tm1,request->vm2,request->tm2,request->vm3,request->tm3,request->ts};
+        uint8_t sendcmd[8] = {response->allcmd[0],response->allcmd[1],response->allcmd[2],response->allcmd[3],response->allcmd[4],response->allcmd[5],response->allcmd[6],response->allcmd[7]};
         /*RCLCPP_INFO(get_logger(), "Received request ");
         for (const auto& element : response->allcmd) {
         RCLCPP_INFO(get_logger(), "%u", element);
         }*/
-        RCLCPP_INFO(get_logger(), "Received request %.*s", response->allcmd.size(), response->allcmd.data());
+        RCLCPP_INFO(get_logger(), "Received request %.*s", static_cast<int>(response->allcmd.size()), response->allcmd.data());
 
     }
 
@@ -106,7 +106,7 @@ private:
 };
 
 int main(int argc, char **argv)
-{/*
+{
     rclcpp::init(argc, argv);
 
     // Initialize WiringPi

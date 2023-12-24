@@ -1,0 +1,4 @@
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:[m[K In member function ‘[01m[Kvoid CommandServiceServer::handle_request(std::shared_ptr<more_interfaces::srv::CommandService_Request_<std::allocator<void> > >, std::shared_ptr<more_interfaces::srv::CommandService_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/userPkg/src/command_service_server.cpp:43:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksendcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   43 |         uint8_t [01;35m[Ksendcmd[m[K[8] = {response->allcmd[0],response->allcmd[1],response->allcmd[2],response->allcmd[3],response->allcmd[4],response->allcmd[5],response->allcmd[6],response->allcmd[7]};
+      |                 [01;35m[K^~~~~~~[m[K

@@ -19,7 +19,7 @@ int main(int argc, char **argv) {
     // Prepare the request
     auto request = std::make_shared<more_interfaces::srv::CommandService::Request>();
     // Get user input for the mode field
-    std::cout << "Enter the value or n for the following sequence\nmode Vm1 Tm1 Vm2 Tm2 Vm3 Tm3 Ts: ";
+    std::cout << "Enter the value or n for the following sequence\nmode Vm1 Tm1 Vm2 Tm2 Vm3 Tm3 Ts: \n";
     std::string mode_input;
     std::cin >> mode_input;
     request->mode = (mode_input == "n") ? 255 : static_cast<uint8_t>(std::stoi(mode_input));
@@ -44,23 +44,6 @@ int main(int argc, char **argv) {
     std::string ts_input;
     std::cin >> ts_input;
     request->ts = (ts_input == "n") ? 255 : static_cast<uint8_t>(std::stoi(ts_input));
-    /*
-    std::cout << "Enter the value for Vm1: ";
-    std::cin >> request->vm1;
-    std::cout << "Enter the value for Tm1: ";
-    std::cin >> request->tm1;
-    std::cout << "Enter the value for Vm2: ";
-    std::cin >> request->vm2;
-    std::cout << "Enter the value for Tm2: ";
-    std::cin >> request->tm2;
-
-    std::cout << "Enter the value for Vm3: ";
-    std::cin >> request->vm3;
-    std::cout << "Enter the value for Tm3: ";
-    std::cin >> request->tm3;
-    std::cout << "Enter the value for Ts: ";
-    std::cin >> request->ts ;
-    */
 
     // Send the request
     auto result_future = client->async_send_request(request);
@@ -76,7 +59,11 @@ int main(int argc, char **argv) {
     // Print each element of the array individually
     RCLCPP_INFO(node->get_logger(), "All commands received:");
     for (const auto& element : response->allcmd) {
-        RCLCPP_INFO(node->get_logger(), "%u", element);
+        if (element == 'n') {
+            RCLCPP_INFO(node->get_logger(), "'n' ");
+        } else {
+            RCLCPP_INFO(node->get_logger(), "%u" , element);
+        }
     }
 
 
