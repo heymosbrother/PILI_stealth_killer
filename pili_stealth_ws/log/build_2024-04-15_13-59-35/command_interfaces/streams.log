@@ -1,0 +1,259 @@
+[0.030s] Invoking command in '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces -DCMAKE_INSTALL_PREFIX=/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces
+[0.038s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.127s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.128s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.130s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.147s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.324s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.440s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.603s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.605s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.621s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.621s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.622s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.622s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.635s] -- Found PythonExtra: .so  
+[0.659s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.680s] -- Added test 'lint_cmake' to check CMake code style
+[0.681s] -- Added test 'xmllint' to check XML markup files
+[0.683s] -- Configuring done
+[0.706s] -- Generating done
+[0.707s] -- Build files have been written to: /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces
+[0.710s] Invoked command in '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces -DCMAKE_INSTALL_PREFIX=/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces
+[0.712s] Invoking command in '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces -- -j8 -l8
+[0.739s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.746s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.753s] [  5%] Built target ament_cmake_python_copy_command_interfaces
+[0.892s] running egg_info
+[0.892s] creating command_interfaces.egg-info
+[0.892s] writing command_interfaces.egg-info/PKG-INFO
+[0.893s] writing dependency_links to command_interfaces.egg-info/dependency_links.txt
+[0.893s] writing top-level names to command_interfaces.egg-info/top_level.txt
+[0.893s] writing manifest file 'command_interfaces.egg-info/SOURCES.txt'
+[0.895s] reading manifest file 'command_interfaces.egg-info/SOURCES.txt'
+[0.895s] writing manifest file 'command_interfaces.egg-info/SOURCES.txt'
+[0.915s] [  5%] Built target ament_cmake_python_build_command_interfaces_egg
+[0.985s] [  5%] Built target command_interfaces__cpp
+[0.993s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.994s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.995s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.008s] [ 15%] [32mBuilding C object CMakeFiles/command_interfaces__rosidl_generator_c.dir/rosidl_generator_c/command_interfaces/msg/detail/commands__functions.c.o[0m
+[1.010s] [ 17%] [32mBuilding C object CMakeFiles/command_interfaces__rosidl_generator_c.dir/rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.c.o[0m
+[1.076s] [ 20%] [32m[1mLinking C shared library libcommand_interfaces__rosidl_generator_c.so[0m
+[1.104s] [ 20%] Built target command_interfaces__rosidl_generator_c
+[1.112s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.115s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.115s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.218s] [ 33%] [32mBuilding CXX object CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.cpp.o[0m
+[1.218s] [ 35%] [32mBuilding CXX object CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.cpp.o[0m
+[1.219s] [ 38%] [32mBuilding CXX object CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.cpp.o[0m
+[1.219s] [ 38%] [32mBuilding CXX object CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.cpp.o[0m
+[1.372s] [ 41%] [32mBuilding CXX object CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.cpp.o[0m
+[1.461s] [ 43%] [32mBuilding CXX object CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/command_interfaces/msg/commands__type_support.cpp.o[0m
+[1.499s] [ 46%] [32mBuilding CXX object CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.cpp.o[0m
+[1.520s] [ 48%] [32mBuilding C object CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.o[0m
+[1.527s] [ 51%] [32mBuilding CXX object CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.o[0m
+[1.535s] [ 53%] [32m[1mLinking CXX shared library libcommand_interfaces__rosidl_typesupport_c.so[0m
+[1.540s] [ 56%] [32mBuilding CXX object CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.o[0m
+[1.552s] [ 58%] [32m[1mLinking CXX shared library libcommand_interfaces__rosidl_typesupport_cpp.so[0m
+[1.561s] [ 61%] [32mBuilding C object CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.o[0m
+[1.598s] [ 61%] Built target command_interfaces__rosidl_typesupport_c
+[1.610s] [ 64%] [32mBuilding CXX object CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.cpp.o[0m
+[1.618s] [ 64%] Built target command_interfaces__rosidl_typesupport_cpp
+[1.618s] [ 66%] [32m[1mLinking C shared library libcommand_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.655s] [ 66%] Built target command_interfaces__rosidl_typesupport_introspection_c
+[1.678s] [ 69%] [32m[1mLinking CXX shared library libcommand_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.709s] [ 69%] Built target command_interfaces__rosidl_typesupport_introspection_cpp
+[1.832s] [ 71%] [32m[1mLinking CXX shared library libcommand_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.892s] [ 71%] Built target command_interfaces__rosidl_typesupport_fastrtps_c
+[1.953s] [ 74%] [32m[1mLinking CXX shared library libcommand_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.007s] [ 74%] Built target command_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.021s] [ 74%] Built target command_interfaces
+[2.036s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.349s] [ 76%] Built target command_interfaces__py
+[2.363s] [ 82%] [32mBuilding C object CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/srv/_my_command_s.c.o[0m
+[2.363s] [ 82%] [32mBuilding C object CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/msg/_commands_s.c.o[0m
+[2.470s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/command_interfaces/libcommand_interfaces__rosidl_generator_py.so[0m
+[2.498s] [ 84%] Built target command_interfaces__rosidl_generator_py
+[2.514s] [ 92%] [32mBuilding C object CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.514s] [ 92%] [32mBuilding C object CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.514s] [ 92%] [32mBuilding C object CMakeFiles/command_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.584s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.585s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.590s] [100%] [32m[1mLinking C shared library rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.608s] [100%] Built target command_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.608s] [100%] Built target command_interfaces__rosidl_typesupport_c__pyext
+[2.615s] [100%] Built target command_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.623s] Invoked command in '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces -- -j8 -l8
+[2.676s] Invoking command in '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces
+[2.683s] -- Install configuration: ""
+[2.683s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/ament_index/resource_index/rosidl_interfaces/command_interfaces
+[2.683s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces
+[2.683s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg
+[2.683s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.683s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/commands.h
+[2.683s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail
+[2.683s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail/commands__type_support.h
+[2.683s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail/commands__functions.c
+[2.684s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail/commands__functions.h
+[2.684s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail/commands__struct.h
+[2.684s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv
+[2.684s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/my_command.h
+[2.684s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail
+[2.684s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/my_command__functions.h
+[2.684s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/my_command__struct.h
+[2.684s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/my_command__type_support.h
+[2.684s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/my_command__functions.c
+[2.684s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/library_path.sh
+[2.684s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/library_path.dsv
+[2.685s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_generator_c.so
+[2.685s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_generator_c.so" to ""
+[2.685s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces
+[2.685s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg
+[2.685s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.686s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail
+[2.686s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h
+[2.686s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv
+[2.686s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail
+[2.686s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/my_command__rosidl_typesupport_fastrtps_c.h
+[2.686s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.686s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.686s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces
+[2.686s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg
+[2.686s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail
+[2.686s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail/commands__type_support.c
+[2.686s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h
+[2.686s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.687s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv
+[2.687s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail
+[2.687s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/my_command__rosidl_typesupport_introspection_c.h
+[2.687s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/my_command__type_support.c
+[2.687s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_introspection_c.so
+[2.687s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.687s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_c.so
+[2.687s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_c.so" to ""
+[2.687s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces
+[2.687s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg
+[2.687s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail
+[2.687s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail/commands__struct.hpp
+[2.688s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail/commands__builder.hpp
+[2.688s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail/commands__traits.hpp
+[2.688s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/commands.hpp
+[2.688s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv
+[2.688s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail
+[2.688s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/my_command__struct.hpp
+[2.688s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/my_command__traits.hpp
+[2.688s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/my_command__builder.hpp
+[2.688s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/my_command.hpp
+[2.688s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces
+[2.688s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg
+[2.688s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail
+[2.688s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_cpp.hpp
+[2.688s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail/dds_fastrtps
+[2.688s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.689s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv
+[2.689s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail
+[2.689s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/dds_fastrtps
+[2.689s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/my_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.689s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.689s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.689s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces
+[2.689s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg
+[2.689s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail
+[2.689s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_cpp.hpp
+[2.689s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/detail/commands__type_support.cpp
+[2.689s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv
+[2.689s] -- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail
+[2.689s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/my_command__rosidl_typesupport_introspection_cpp.hpp
+[2.689s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/my_command__type_support.cpp
+[2.690s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.690s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.690s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_cpp.so
+[2.690s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.690s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/pythonpath.sh
+[2.690s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/pythonpath.dsv
+[2.690s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces-0.0.0-py3.10.egg-info
+[2.690s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.690s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.690s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.690s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.691s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces
+[2.691s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_c.c
+[2.691s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.691s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/__init__.py
+[2.691s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.691s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/msg
+[2.691s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/msg/_commands_s.c
+[2.691s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/msg/__init__.py
+[2.691s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/msg/_commands.py
+[2.691s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.691s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/srv
+[2.691s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/srv/__init__.py
+[2.691s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/srv/_my_command_s.c
+[2.691s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/srv/_my_command.py
+[2.692s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.692s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/libcommand_interfaces__rosidl_generator_py.so
+[2.692s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.717s] Listing '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces'...
+[2.717s] Compiling '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/__init__.py'...
+[2.717s] Listing '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/msg'...
+[2.717s] Compiling '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/msg/__init__.py'...
+[2.717s] Compiling '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/msg/_commands.py'...
+[2.717s] Listing '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/srv'...
+[2.717s] Compiling '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/srv/__init__.py'...
+[2.717s] Compiling '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/srv/_my_command.py'...
+[2.720s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.721s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.721s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.721s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.721s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.721s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.721s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_generator_py.so
+[2.721s] -- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_generator_py.so" to ""
+[2.721s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/msg/Commands.idl
+[2.722s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/srv/MyCommand.idl
+[2.722s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/msg/Commands.msg
+[2.722s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/srv/MyCommand.srv
+[2.722s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/srv/MyCommand_Request.msg
+[2.722s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/srv/MyCommand_Response.msg
+[2.722s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/ament_index/resource_index/package_run_dependencies/command_interfaces
+[2.722s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/ament_index/resource_index/parent_prefix_path/command_interfaces
+[2.722s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/ament_prefix_path.sh
+[2.722s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/ament_prefix_path.dsv
+[2.722s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/path.sh
+[2.722s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/path.dsv
+[2.723s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/local_setup.bash
+[2.723s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/local_setup.sh
+[2.723s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/local_setup.zsh
+[2.723s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/local_setup.dsv
+[2.723s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/package.dsv
+[2.723s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/ament_index/resource_index/packages/command_interfaces
+[2.723s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_generator_cExport.cmake
+[2.723s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.723s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.723s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.724s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.724s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.724s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_cExport.cmake
+[2.724s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.724s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_generator_cppExport.cmake
+[2.724s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.724s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.724s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.724s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.724s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_cppExport.cmake
+[2.725s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.725s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_generator_pyExport.cmake
+[2.725s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.725s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.725s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.725s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.725s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.725s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.725s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.725s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.726s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfacesConfig.cmake
+[2.726s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfacesConfig-version.cmake
+[2.726s] -- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/package.xml
+[2.728s] Invoked command in '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces
