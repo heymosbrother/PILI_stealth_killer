@@ -28,9 +28,9 @@ int main() {
         }
 
         // Read first char
-        char firstChar = 0;
+        uint8_t firstChar = 0;
         
-        for (int bit = 0; bit < 8; bit++) {
+        for (int bit = 0; bit < 7; bit++) {
             firstChar |= digitalRead(DATA_PIN) << bit;
             delayMicroseconds(1000000 / 115200);  // Wait for next bit
         }
@@ -51,14 +51,14 @@ int main() {
 
         // Process receivedData as needed
         // Example: print received data
-        std::cout << "Received char: " << firstChar << std::endl;
+        std::cout << "Received char: " << static_cast<char>(firstChar) << std::endl;
         std::cout << "Received data: ";
         for (int i = 0; i < ARRAY_SIZE - 1; i++) {
             std::cout << static_cast<int>(dataArray[i]) << " ";
         }
         std::cout << std::endl;
 
-        delay(950);  // Delay for 1 second before reading again
+        delay(1000);  // Delay for 1 second before reading again
     }
 
     return 0;
