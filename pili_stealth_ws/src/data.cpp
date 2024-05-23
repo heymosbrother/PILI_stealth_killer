@@ -37,11 +37,18 @@ int main() {
         }
         std::cout << "Received 6 bytes:";
         for (int i =0; i < bufferSize; i++){
-            if (buffer[i] < 47){
-                std::cout << static_cast<int>(buffer[i]) << " ";
+
+            if (i == 0){
+                char mode = static_cast<char>(buffer[i]);
+                std::cout << mode << " ";
             }
-            else{
-                std::cout << buffer[i] << " ";
+            else if (i == 4){
+                char charData = static_cast<char>(buffer[i]);
+                std::cout << charData << " ";
+            }
+            else{//buffer[4]is in char format on stm.
+                int numData = static_cast<int>(buffer[i]);
+                std::cout << numData << " ";
             }
         }
         std::cout << std::endl;
