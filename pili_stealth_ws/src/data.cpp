@@ -7,6 +7,7 @@ int main() {
     int serial;
     const int bufferSize = 6;
     uint8_t buffer[bufferSize];
+    int Data[bufferSize];
     int bytesRead = 0;
     int data;
     wiringPiSetup();
@@ -31,13 +32,14 @@ int main() {
                 data = serialGetchar(serial);
                 if (data != -1){
                     buffer[bytesRead] = static_cast<uint8_t>(data);
+                    Data[bytesRead] = static_cast<int>(data);
                     bytesRead++;
                 }
             }
         }
-        std::cout << "Received 6 bytes:";
+        std::cout << "Received 6 uint8_t bytes:";
         for (int i =0; i < bufferSize; i++){
-
+            
             if (i == 0){
                 char mode = static_cast<char>(buffer[i]);
                 std::cout << mode << " ";
@@ -51,7 +53,14 @@ int main() {
                 std::cout << numData << " ";
             }
         }
+        std::cout << "//// ";
+
+        std::cout << "in int:";
+        for (int i = 0; i < bufferSize; i++){
+            std::cout << Data[i] << " ";
+        }
         std::cout << std::endl;
+
 
         delay(1000);
 
