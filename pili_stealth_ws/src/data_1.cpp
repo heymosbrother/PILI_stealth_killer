@@ -1,7 +1,9 @@
+#include <iomanip>
+#include <chrono>
+#include <ctime>
 #include <iostream>
 #include <wiringPi.h>
 #include <wiringSerial.h>
-//#define RX_PIN 16  // GPIO pin RX PIN 16
 
 int main() {
     int serial;
@@ -39,21 +41,29 @@ int main() {
         }
         std::cout << "Received 6 uint8_t bytes:";
         for (int i =0; i < bufferSize; i++){
-            
-            if (i == 0){
-                char mode = static_cast<char>(buffer[i]);
-                std::cout << mode << " ";
+            int numData = static_cast<int>(buffer[i]);
+            std::cout << numData << " ";
             }
-            else if (i == 4){
-                char charData = static_cast<char>(buffer[i]);
-                std::cout << charData << " ";
+        
+        // Get current time
+        auto now = std::chrono::system_clock::now();
+        std::time_t now_c = std::chrono::system_clock::to_time_t(now);
+        std::tm now_tm = *std::localtime(&now_c);
+        // Open CSV file in append mode
+        std::ofstream file("~/PILI_stealth_killer/pili_stealth_ws/record/data.csv", std::ios::app);
+        if (file.is_open()) {
+            // Write the inputs to the CSV file
+            file << std::put_time(&now_tm, "%Y-%m-%d %H:%M:%S") << ","
+                    << buffer[0] << ","
+                    << buffer[1] << ","
+                    << buffer[2] << ","
+                    << buffer[3] << ","
+                    << buffer[4] << ","
+                    << buffer[5] << "\n";
+            file.close();
             }
-            else{//buffer[4]is in char format on stm.
-                int numData = static_cast<int>(buffer[i]);
-                std::cout << numData << " ";
-            }
-        }
-        std::cout << "//// ";
+
+        std::cout << "\n//// \n";
 
         std::cout << "in int:";
         for (int i = 0; i < bufferSize; i++){
@@ -61,13 +71,11 @@ int main() {
         }
         std::cout << std::endl;
 
-
         delay(1000);
-
     }
+    
         
+
     serialClose(serial);
-
-
     return 0;
 }

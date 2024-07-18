@@ -1,0 +1,9 @@
+//Command.srv
+uint8_t input1
+uint8_t input2
+uint8_t input3
+uint8_t input4
+uint8_t input5
+uint8_t input6
+---------
+uint8_t[6] commands_array

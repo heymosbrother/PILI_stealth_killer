@@ -7,13 +7,29 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(std_msgs REQUIRED)
+
+# Find WiringPi
+find_library(WIRINGPI_LIBRARIES wiringPi)
+find_path(WIRINGPI_INCLUDE_DIRS wiringPi.h)
+
+# Include directories
+include_directories(
+  ${WIRINGPI_INCLUDE_DIRS}
+)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Commands.msg"
-  "srv/MyCommand.srv"
+  #"msg/Commands.msg"
+  "srv/Command.srv"
 )
 # find_package(<dependency> REQUIRED)
+
+add_executable(server src/send_command_service.cpp)
+ament_target_dependencies(server rclcpp command_interfaces)
+add_executable(client src/send_command_client.cpp)
+ament_target_dependencies(client rclcpp command_interfaces)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -26,5 +42,10 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
+install(TARGETS
+  server
+  client
+  DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
