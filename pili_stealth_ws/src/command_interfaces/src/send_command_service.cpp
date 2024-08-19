@@ -7,13 +7,13 @@
 #include <wiringSerial.h>
 #include <unistd.h>
 #include "rclcpp/rclcpp.hpp"
-#include "command_interfaces/srv/Command.hpp"
+#include "command_interfaces/srv/command.hpp"
 
 #include <memory>
 
-void HandleCommand(const std::shared_ptr<command_interfaces::srv::Command::Request> request,
+int HandleCommand(const std::shared_ptr<command_interfaces::srv::Command::Request> request,
           std::shared_ptr<command_interfaces::srv::Command::Response> response)
-{
+{   uint8_t command_array[] = {0, 0, 0, 0, 0, 0};
     response->command_array = {request->input1, request->input2 , request->input3, request->input4, request->input5, request->input6};
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\n type in command: %hhu, %u, %u, %u, %u, %u",
                 request->input1, request->input2, request->input3, request->input4, request->input5, request->input6);
@@ -26,6 +26,7 @@ void HandleCommand(const std::shared_ptr<command_interfaces::srv::Command::Reque
     std::time_t now_c = std::chrono::system_clock::to_time_t(now);
     std::tm now_tm = *std::localtime(&now_c);
     // Open CSV file in append mode
+    std::string filename = "/root/PILI_stealth_killer/pili_stealth_ws/src/record/command_log.csv";
     std::ofstream file(filename, std::ios::app);
     //filename = "/root/PILI_stealth_killer/pili_stealth_ws/src/record/data.csv"
     if (file.is_open()) {
@@ -55,7 +56,7 @@ void HandleCommand(const std::shared_ptr<command_interfaces::srv::Command::Reque
         //sent-command log
 
         for(int i = 0; i < 6; i++){
-            serialPutChar(serial, command_array[i]);
+            serialPutchar(serial, command_array[i]);
         }
         std::cout << "send command bytes:";
         //consider to save csv here
@@ -93,7 +94,7 @@ int main(int argc, char **argv)
     std::string current_time_str = oss.str();
 
     // Construct the filename
-    std::string filename = "/root/PILI_stealth_killer/pili_stealth_ws/src/record/command_log_" + current_time_str + ".csv";
+    std::string filename = "/root/PILI_stealth_killer/pili_stealth_ws/src/record/command_log.csv";
 
     std::ofstream file(filename, std::ios::app);
     if (file.is_open()) {

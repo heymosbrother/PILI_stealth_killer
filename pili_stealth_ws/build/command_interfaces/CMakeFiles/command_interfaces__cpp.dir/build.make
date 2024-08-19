@@ -66,65 +66,44 @@ include CMakeFiles/command_interfaces__cpp.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/command_interfaces__cpp.dir/progress.make
 
-CMakeFiles/command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/msg/commands.hpp
-CMakeFiles/command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/msg/detail/commands__builder.hpp
-CMakeFiles/command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/msg/detail/commands__struct.hpp
-CMakeFiles/command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/msg/detail/commands__traits.hpp
-CMakeFiles/command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/my_command.hpp
-CMakeFiles/command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/detail/my_command__builder.hpp
-CMakeFiles/command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/detail/my_command__struct.hpp
-CMakeFiles/command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/detail/my_command__traits.hpp
+CMakeFiles/command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/command.hpp
+CMakeFiles/command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/detail/command__builder.hpp
+CMakeFiles/command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/detail/command__struct.hpp
+CMakeFiles/command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/detail/command__traits.hpp
 
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__builder.hpp.em
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__struct.hpp.em
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__traits.hpp.em
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl.hpp.em
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: rosidl_adapter/command_interfaces/msg/Commands.idl
-rosidl_generator_cpp/command_interfaces/msg/commands.hpp: rosidl_adapter/command_interfaces/srv/MyCommand.idl
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__builder.hpp.em
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__struct.hpp.em
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl.hpp.em
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/command_interfaces/srv/command.hpp: rosidl_adapter/command_interfaces/srv/Command.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_generator_cpp__arguments.json
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_generator_cpp__arguments.json
 
-rosidl_generator_cpp/command_interfaces/msg/detail/commands__builder.hpp: rosidl_generator_cpp/command_interfaces/msg/commands.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/command_interfaces/msg/detail/commands__builder.hpp
+rosidl_generator_cpp/command_interfaces/srv/detail/command__builder.hpp: rosidl_generator_cpp/command_interfaces/srv/command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/command_interfaces/srv/detail/command__builder.hpp
 
-rosidl_generator_cpp/command_interfaces/msg/detail/commands__struct.hpp: rosidl_generator_cpp/command_interfaces/msg/commands.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/command_interfaces/msg/detail/commands__struct.hpp
+rosidl_generator_cpp/command_interfaces/srv/detail/command__struct.hpp: rosidl_generator_cpp/command_interfaces/srv/command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/command_interfaces/srv/detail/command__struct.hpp
 
-rosidl_generator_cpp/command_interfaces/msg/detail/commands__traits.hpp: rosidl_generator_cpp/command_interfaces/msg/commands.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/command_interfaces/msg/detail/commands__traits.hpp
-
-rosidl_generator_cpp/command_interfaces/srv/my_command.hpp: rosidl_generator_cpp/command_interfaces/msg/commands.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/command_interfaces/srv/my_command.hpp
-
-rosidl_generator_cpp/command_interfaces/srv/detail/my_command__builder.hpp: rosidl_generator_cpp/command_interfaces/msg/commands.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/command_interfaces/srv/detail/my_command__builder.hpp
-
-rosidl_generator_cpp/command_interfaces/srv/detail/my_command__struct.hpp: rosidl_generator_cpp/command_interfaces/msg/commands.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/command_interfaces/srv/detail/my_command__struct.hpp
-
-rosidl_generator_cpp/command_interfaces/srv/detail/my_command__traits.hpp: rosidl_generator_cpp/command_interfaces/msg/commands.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/command_interfaces/srv/detail/my_command__traits.hpp
+rosidl_generator_cpp/command_interfaces/srv/detail/command__traits.hpp: rosidl_generator_cpp/command_interfaces/srv/command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/command_interfaces/srv/detail/command__traits.hpp
 
 command_interfaces__cpp: CMakeFiles/command_interfaces__cpp
-command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/msg/commands.hpp
-command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/msg/detail/commands__builder.hpp
-command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/msg/detail/commands__struct.hpp
-command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/msg/detail/commands__traits.hpp
-command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/detail/my_command__builder.hpp
-command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/detail/my_command__struct.hpp
-command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/detail/my_command__traits.hpp
-command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/my_command.hpp
+command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/command.hpp
+command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/detail/command__builder.hpp
+command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/detail/command__struct.hpp
+command_interfaces__cpp: rosidl_generator_cpp/command_interfaces/srv/detail/command__traits.hpp
 command_interfaces__cpp: CMakeFiles/command_interfaces__cpp.dir/build.make
 .PHONY : command_interfaces__cpp
 

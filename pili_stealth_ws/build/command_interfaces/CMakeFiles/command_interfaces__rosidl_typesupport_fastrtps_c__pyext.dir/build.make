@@ -90,27 +90,27 @@ command_interfaces__rosidl_typesupport_fastrtps_c__pyext_OBJECTS = \
 # External object files for target command_interfaces__rosidl_typesupport_fastrtps_c__pyext
 command_interfaces__rosidl_typesupport_fastrtps_c__pyext_EXTERNAL_OBJECTS =
 
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: rosidl_generator_py/command_interfaces/libcommand_interfaces__rosidl_generator_py.so
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: libcommand_interfaces__rosidl_typesupport_fastrtps_c.so
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: libcommand_interfaces__rosidl_typesupport_c.so
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librmw.so
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: libcommand_interfaces__rosidl_generator_c.so
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librmw.so
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_runtime_c.so
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librcutils.so
-rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so"
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: rosidl_generator_py/command_interfaces/libcommand_interfaces__rosidl_generator_py.so
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: libcommand_interfaces__rosidl_typesupport_fastrtps_c.so
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: libcommand_interfaces__rosidl_typesupport_c.so
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librmw.so
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: libcommand_interfaces__rosidl_generator_c.so
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librmw.so
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_runtime_c.so
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librcutils.so
+rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build: rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build: rosidl_generator_py/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
 .PHONY : CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build
 
 CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/clean:

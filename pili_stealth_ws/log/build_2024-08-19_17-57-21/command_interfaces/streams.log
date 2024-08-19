@@ -1,0 +1,75 @@
+[0.018s] Invoking command in '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces -- -j4 -l4
+[0.048s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.190s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.219s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.222s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.231s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.240s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.254s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.293s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.295s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.379s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.447s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.455s] -- Found command_interfaces: 0.0.0 (/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake)
+[0.739s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.035s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.151s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.170s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.188s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.189s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.189s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[1.205s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.217s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.218s] -- Configured cppcheck include dirs: 
+[1.218s] -- Configured cppcheck exclude dirs and/or files: 
+[1.218s] -- Added test 'lint_cmake' to check CMake code style
+[1.219s] -- Added test 'uncrustify' to check C / C++ code style
+[1.219s] -- Configured uncrustify additional arguments: 
+[1.220s] -- Added test 'xmllint' to check XML markup files
+[1.222s] -- Configuring done
+[1.294s] -- Generating done
+[1.315s] -- Build files have been written to: /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces
+[1.351s] [35m[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_generator_c[0m
+[1.352s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[1.365s] [  8%] Built target command_interfaces__rosidl_generator_c
+[1.372s] [ 11%] Built target command_interfaces__cpp
+[1.376s] [ 17%] Built target server
+[1.380s] [ 17%] Built target ament_cmake_python_copy_command_interfaces
+[1.390s] [35m[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_cpp[0m
+[1.392s] [35m[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.401s] [35m[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.402s] [ 20%] [32mBuilding CXX object CMakeFiles/client.dir/src/send_command_client.cpp.o[0m
+[1.416s] [ 28%] Built target command_interfaces__rosidl_typesupport_fastrtps_c
+[1.417s] [ 37%] Built target command_interfaces__rosidl_typesupport_cpp
+[1.429s] [35m[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_c[0m
+[1.430s] [35m[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_introspection_c[0m
+[1.434s] [ 45%] Built target command_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.447s] [35m[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.453s] [ 54%] Built target command_interfaces__rosidl_typesupport_introspection_c
+[1.455s] [ 62%] Built target command_interfaces__rosidl_typesupport_c
+[1.467s] [ 71%] Built target command_interfaces__rosidl_typesupport_introspection_cpp
+[1.489s] [ 71%] Built target command_interfaces
+[1.513s] [ 74%] Built target command_interfaces__py
+[1.526s] [35m[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_generator_py[0m
+[1.542s] [ 80%] Built target command_interfaces__rosidl_generator_py
+[1.562s] [35m[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.567s] [35m[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.594s] [ 85%] Built target command_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.599s] [ 91%] Built target command_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.607s] [35m[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_c__pyext[0m
+[1.622s] [ 97%] Built target command_interfaces__rosidl_typesupport_c__pyext
+[1.732s] running egg_info
+[1.733s] writing command_interfaces.egg-info/PKG-INFO
+[1.734s] writing dependency_links to command_interfaces.egg-info/dependency_links.txt
+[1.737s] writing top-level names to command_interfaces.egg-info/top_level.txt
+[1.740s] reading manifest file 'command_interfaces.egg-info/SOURCES.txt'
+[1.741s] writing manifest file 'command_interfaces.egg-info/SOURCES.txt'
+[1.798s] [ 97%] Built target ament_cmake_python_build_command_interfaces_egg
+[4.253s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces/src/send_command_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.253s] [01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces/src/send_command_client.cpp:28:38:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[4.253s]    28 |     while (!client->wait_for_service([01;31m[K1s[m[K)) {
+[4.254s]       |                                      [01;31m[K^~[m[K
+[4.970s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/send_command_client.cpp.o] Error 1
+[4.971s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/client.dir/all] Error 2
+[4.971s] gmake: *** [Makefile:146: all] Error 2
+[4.973s] Invoked command in '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces -- -j4 -l4

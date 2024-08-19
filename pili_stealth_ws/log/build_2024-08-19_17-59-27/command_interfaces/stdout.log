@@ -1,0 +1,25 @@
+[  8%] Built target command_interfaces__rosidl_generator_c
+[ 11%] Built target command_interfaces__cpp
+[ 11%] Built target ament_cmake_python_copy_command_interfaces
+[ 17%] Built target server
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[ 34%] Built target command_interfaces__rosidl_typesupport_fastrtps_c
+[ 34%] Built target command_interfaces__rosidl_typesupport_cpp
+[ 42%] Built target command_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 45%] [32mBuilding CXX object CMakeFiles/client.dir/src/send_command_client.cpp.o[0m
+[ 54%] Built target command_interfaces__rosidl_typesupport_c
+[ 62%] Built target command_interfaces__rosidl_typesupport_introspection_c
+[ 71%] Built target command_interfaces__rosidl_typesupport_introspection_cpp
+[ 71%] Built target command_interfaces
+[ 74%] Built target command_interfaces__py
+[ 80%] Built target command_interfaces__rosidl_generator_py
+[ 85%] Built target command_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target command_interfaces__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target command_interfaces__rosidl_typesupport_c__pyext
+running egg_info
+writing command_interfaces.egg-info/PKG-INFO
+writing dependency_links to command_interfaces.egg-info/dependency_links.txt
+writing top-level names to command_interfaces.egg-info/top_level.txt
+reading manifest file 'command_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'command_interfaces.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_command_interfaces_egg

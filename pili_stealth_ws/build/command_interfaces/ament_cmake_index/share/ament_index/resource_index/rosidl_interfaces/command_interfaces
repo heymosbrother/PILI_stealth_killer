@@ -1,6 +1,4 @@
-msg/Commands.idl
-msg/Commands.msg
-srv/MyCommand.idl
-srv/MyCommand.srv
-srv/MyCommand_Request.msg
-srv/MyCommand_Response.msg
+srv/Command.idl
+srv/Command.srv
+srv/Command_Request.msg
+srv/Command_Response.msg

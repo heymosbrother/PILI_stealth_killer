@@ -10,10 +10,12 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(command_interfaces REQUIRED)
 
 # Find WiringPi
-find_library(WIRINGPI_LIBRARIES wiringPi)
-find_path(WIRINGPI_INCLUDE_DIRS wiringPi.h)
+find_library(WIRINGPI_LIBRARIES wiringPi REQUIRED)
+#find_path(WIRINGPI_INCLUDE_DIRS wiringPi.h)
+#find_package(lwiringPi REQUIRED)
 
 # Include directories
 include_directories(
@@ -28,6 +30,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
 add_executable(server src/send_command_service.cpp)
 ament_target_dependencies(server rclcpp command_interfaces)
+target_link_libraries(server wiringPi)
 add_executable(client src/send_command_client.cpp)
 ament_target_dependencies(client rclcpp command_interfaces)
 

@@ -69,12 +69,9 @@ include command_interfaces__py/CMakeFiles/command_interfaces__py.dir/progress.ma
 command_interfaces__py/CMakeFiles/command_interfaces__py: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 command_interfaces__py/CMakeFiles/command_interfaces__py: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 command_interfaces__py/CMakeFiles/command_interfaces__py: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_c.c
-command_interfaces__py/CMakeFiles/command_interfaces__py: rosidl_generator_py/command_interfaces/msg/_commands.py
-command_interfaces__py/CMakeFiles/command_interfaces__py: rosidl_generator_py/command_interfaces/srv/_my_command.py
-command_interfaces__py/CMakeFiles/command_interfaces__py: rosidl_generator_py/command_interfaces/msg/__init__.py
+command_interfaces__py/CMakeFiles/command_interfaces__py: rosidl_generator_py/command_interfaces/srv/_command.py
 command_interfaces__py/CMakeFiles/command_interfaces__py: rosidl_generator_py/command_interfaces/srv/__init__.py
-command_interfaces__py/CMakeFiles/command_interfaces__py: rosidl_generator_py/command_interfaces/msg/_commands_s.c
-command_interfaces__py/CMakeFiles/command_interfaces__py: rosidl_generator_py/command_interfaces/srv/_my_command_s.c
+command_interfaces__py/CMakeFiles/command_interfaces__py: rosidl_generator_py/command_interfaces/srv/_command_s.c
 
 rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -89,8 +86,7 @@ rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesuppo
 rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/command_interfaces/msg/Commands.idl
-rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/command_interfaces/srv/MyCommand.idl
+rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/command_interfaces/srv/Command.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/command_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -100,34 +96,22 @@ rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesuppo
 rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/command_interfaces/msg/_commands.py: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/command_interfaces/msg/_commands.py
-
-rosidl_generator_py/command_interfaces/srv/_my_command.py: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/command_interfaces/srv/_my_command.py
-
-rosidl_generator_py/command_interfaces/msg/__init__.py: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/command_interfaces/msg/__init__.py
+rosidl_generator_py/command_interfaces/srv/_command.py: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/command_interfaces/srv/_command.py
 
 rosidl_generator_py/command_interfaces/srv/__init__.py: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/command_interfaces/srv/__init__.py
 
-rosidl_generator_py/command_interfaces/msg/_commands_s.c: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/command_interfaces/msg/_commands_s.c
-
-rosidl_generator_py/command_interfaces/srv/_my_command_s.c: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/command_interfaces/srv/_my_command_s.c
+rosidl_generator_py/command_interfaces/srv/_command_s.c: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/command_interfaces/srv/_command_s.c
 
 command_interfaces__py: command_interfaces__py/CMakeFiles/command_interfaces__py
 command_interfaces__py: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_c.c
 command_interfaces__py: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 command_interfaces__py: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_introspection_c.c
-command_interfaces__py: rosidl_generator_py/command_interfaces/msg/__init__.py
-command_interfaces__py: rosidl_generator_py/command_interfaces/msg/_commands.py
-command_interfaces__py: rosidl_generator_py/command_interfaces/msg/_commands_s.c
 command_interfaces__py: rosidl_generator_py/command_interfaces/srv/__init__.py
-command_interfaces__py: rosidl_generator_py/command_interfaces/srv/_my_command.py
-command_interfaces__py: rosidl_generator_py/command_interfaces/srv/_my_command_s.c
+command_interfaces__py: rosidl_generator_py/command_interfaces/srv/_command.py
+command_interfaces__py: rosidl_generator_py/command_interfaces/srv/_command_s.c
 command_interfaces__py: command_interfaces__py/CMakeFiles/command_interfaces__py.dir/build.make
 .PHONY : command_interfaces__py
 

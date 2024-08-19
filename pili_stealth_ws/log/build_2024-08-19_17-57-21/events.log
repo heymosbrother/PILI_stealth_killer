@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000774] (command_interfaces) JobQueued: {'identifier': 'command_interfaces', 'dependencies': OrderedDict()}
+[0.001161] (command_interfaces) JobStarted: {'identifier': 'command_interfaces'}
+[0.014814] (command_interfaces) JobProgress: {'identifier': 'command_interfaces', 'progress': 'cmake'}
+[0.015959] (command_interfaces) JobProgress: {'identifier': 'command_interfaces', 'progress': 'build'}
+[0.017089] (command_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces', '--', '-j4', '-l4'], 'cwd': '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces', 'env': OrderedDict([('HOSTNAME', 'rpi5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/PILI_stealth_killer'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces:/opt/ros/humble'), ('PWD', '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.048803] (command_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099613] (-) TimerEvent: {}
+[0.190678] (command_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199722] (-) TimerEvent: {}
+[0.219901] (command_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.222815] (command_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.231830] (command_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.241051] (command_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.255551] (command_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.294413] (command_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.295906] (command_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299787] (-) TimerEvent: {}
+[0.380401] (command_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399888] (-) TimerEvent: {}
+[0.447903] (command_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.456468] (command_interfaces) StdoutLine: {'line': b'-- Found command_interfaces: 0.0.0 (/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake)\n'}
+[0.499988] (-) TimerEvent: {}
+[0.600333] (-) TimerEvent: {}
+[0.701024] (-) TimerEvent: {}
+[0.739721] (command_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.801139] (-) TimerEvent: {}
+[0.901504] (-) TimerEvent: {}
+[1.001897] (-) TimerEvent: {}
+[1.035918] (command_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.102027] (-) TimerEvent: {}
+[1.151944] (command_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.170995] (command_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.189313] (command_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.189873] (command_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.189981] (command_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[1.202095] (-) TimerEvent: {}
+[1.206343] (command_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.218047] (command_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.218878] (command_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.218960] (command_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.219521] (command_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.220476] (command_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.220577] (command_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.220864] (command_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.222716] (command_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.295276] (command_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.302162] (-) TimerEvent: {}
+[1.316073] (command_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces\n'}
+[1.351474] (command_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.353285] (command_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[1.365840] (command_interfaces) StdoutLine: {'line': b'[  8%] Built target command_interfaces__rosidl_generator_c\n'}
+[1.372699] (command_interfaces) StdoutLine: {'line': b'[ 11%] Built target command_interfaces__cpp\n'}
+[1.377000] (command_interfaces) StdoutLine: {'line': b'[ 17%] Built target server\n'}
+[1.380594] (command_interfaces) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_copy_command_interfaces\n'}
+[1.390990] (command_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.393099] (command_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.401996] (command_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.402323] (-) TimerEvent: {}
+[1.402634] (command_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/send_command_client.cpp.o\x1b[0m\n'}
+[1.417275] (command_interfaces) StdoutLine: {'line': b'[ 28%] Built target command_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.417683] (command_interfaces) StdoutLine: {'line': b'[ 37%] Built target command_interfaces__rosidl_typesupport_cpp\n'}
+[1.430331] (command_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[1.430739] (command_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.434589] (command_interfaces) StdoutLine: {'line': b'[ 45%] Built target command_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.448114] (command_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.453777] (command_interfaces) StdoutLine: {'line': b'[ 54%] Built target command_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.455546] (command_interfaces) StdoutLine: {'line': b'[ 62%] Built target command_interfaces__rosidl_typesupport_c\n'}
+[1.467254] (command_interfaces) StdoutLine: {'line': b'[ 71%] Built target command_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.490439] (command_interfaces) StdoutLine: {'line': b'[ 71%] Built target command_interfaces\n'}
+[1.503872] (-) TimerEvent: {}
+[1.514465] (command_interfaces) StdoutLine: {'line': b'[ 74%] Built target command_interfaces__py\n'}
+[1.526711] (command_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_generator_py\x1b[0m\n'}
+[1.542697] (command_interfaces) StdoutLine: {'line': b'[ 80%] Built target command_interfaces__rosidl_generator_py\n'}
+[1.562703] (command_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.567957] (command_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.594656] (command_interfaces) StdoutLine: {'line': b'[ 85%] Built target command_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.599934] (command_interfaces) StdoutLine: {'line': b'[ 91%] Built target command_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.603980] (-) TimerEvent: {}
+[1.607564] (command_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target command_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.622564] (command_interfaces) StdoutLine: {'line': b'[ 97%] Built target command_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.704081] (-) TimerEvent: {}
+[1.733382] (command_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.734481] (command_interfaces) StdoutLine: {'line': b'writing command_interfaces.egg-info/PKG-INFO\n'}
+[1.734837] (command_interfaces) StdoutLine: {'line': b'writing dependency_links to command_interfaces.egg-info/dependency_links.txt\n'}
+[1.737780] (command_interfaces) StdoutLine: {'line': b'writing top-level names to command_interfaces.egg-info/top_level.txt\n'}
+[1.741403] (command_interfaces) StdoutLine: {'line': b"reading manifest file 'command_interfaces.egg-info/SOURCES.txt'\n"}
+[1.742365] (command_interfaces) StdoutLine: {'line': b"writing manifest file 'command_interfaces.egg-info/SOURCES.txt'\n"}
+[1.798804] (command_interfaces) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_command_interfaces_egg\n'}
+[1.804171] (-) TimerEvent: {}
+[1.904675] (-) TimerEvent: {}
+[2.005123] (-) TimerEvent: {}
+[2.105562] (-) TimerEvent: {}
+[2.206059] (-) TimerEvent: {}
+[2.306553] (-) TimerEvent: {}
+[2.406946] (-) TimerEvent: {}
+[2.507319] (-) TimerEvent: {}
+[2.607710] (-) TimerEvent: {}
+[2.708133] (-) TimerEvent: {}
+[2.808532] (-) TimerEvent: {}
+[2.908917] (-) TimerEvent: {}
+[3.009323] (-) TimerEvent: {}
+[3.109787] (-) TimerEvent: {}
+[3.210178] (-) TimerEvent: {}
+[3.310596] (-) TimerEvent: {}
+[3.411005] (-) TimerEvent: {}
+[3.511384] (-) TimerEvent: {}
+[3.611740] (-) TimerEvent: {}
+[3.712151] (-) TimerEvent: {}
+[3.812517] (-) TimerEvent: {}
+[3.912895] (-) TimerEvent: {}
+[4.013292] (-) TimerEvent: {}
+[4.113689] (-) TimerEvent: {}
+[4.214088] (-) TimerEvent: {}
+[4.254222] (command_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces/src/send_command_client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.254491] (command_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces/src/send_command_client.cpp:28:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""s\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.254575] (command_interfaces) StderrLine: {'line': b'   28 |     while (!client->wait_for_service(\x1b[01;31m\x1b[K1s\x1b[m\x1b[K)) {\n'}
+[4.254643] (command_interfaces) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.314180] (-) TimerEvent: {}
+[4.414536] (-) TimerEvent: {}
+[4.514915] (-) TimerEvent: {}
+[4.615308] (-) TimerEvent: {}
+[4.715688] (-) TimerEvent: {}
+[4.816098] (-) TimerEvent: {}
+[4.916494] (-) TimerEvent: {}
+[4.971375] (command_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/send_command_client.cpp.o] Error 1\n'}
+[4.972002] (command_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/client.dir/all] Error 2\n'}
+[4.972145] (command_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.973934] (command_interfaces) CommandEnded: {'returncode': 2}
+[5.016587] (-) TimerEvent: {}
+[5.034012] (command_interfaces) JobEnded: {'identifier': 'command_interfaces', 'rc': 2}
+[5.044592] (-) EventReactorShutdown: {}

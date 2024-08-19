@@ -66,10 +66,9 @@ include CMakeFiles/command_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/command_interfaces.dir/progress.make
 
-CMakeFiles/command_interfaces: /root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces/msg/Commands.msg
-CMakeFiles/command_interfaces: /root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces/srv/MyCommand.srv
-CMakeFiles/command_interfaces: rosidl_cmake/srv/MyCommand_Request.msg
-CMakeFiles/command_interfaces: rosidl_cmake/srv/MyCommand_Response.msg
+CMakeFiles/command_interfaces: /root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces/srv/Command.srv
+CMakeFiles/command_interfaces: rosidl_cmake/srv/Command_Request.msg
+CMakeFiles/command_interfaces: rosidl_cmake/srv/Command_Response.msg
 
 command_interfaces: CMakeFiles/command_interfaces
 command_interfaces: CMakeFiles/command_interfaces.dir/build.make

@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from command_interfaces/srv/Command.srv
+// generated code does not contain a copyright notice
+
+
+module command_interfaces {
+  module srv {
+    struct Command_Request {
+      uint8 input1;
+
+      uint8 input2;
+
+      uint8 input3;
+
+      uint8 input4;
+
+      uint8 input5;
+
+      uint8 input6;
+    };
+    typedef uint8 uint8__6[6];
+    struct Command_Response {
+      uint8__6 command_array;
+    };
+  };
+};

@@ -1,8 +1,10 @@
 #include <iomanip>
 #include <chrono>
 #include <ctime>
+#include <fstream>
+#include <iostream>
 #include "rclcpp/rclcpp.hpp"
-#include "command_interfaces/srv/Command.srv"
+#include "command_interfaces/srv/command.hpp"
 
 int main(int argc, char **argv)
 {
@@ -23,7 +25,7 @@ int main(int argc, char **argv)
     request->input5 = std::stoi(argv[5]);
     request->input6 = std::stoi(argv[6]); 
 
-    while (!client->wait_for_service(1s)) {
+    while (!client->wait_for_service(std::chrono::seconds(1))) {
         if (!rclcpp::ok()) {
             RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service. Exiting.");
             return 0;
@@ -35,14 +37,14 @@ int main(int argc, char **argv)
     if (rclcpp::spin_until_future_complete(node, result) ==
     rclcpp::FutureReturnCode::SUCCESS)
     {
-        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "response command uint8_t : %u", result.get()->command_array);
+        //RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "response command uint8_t : "+ std::to_string(result.get()->command_array));
         //or send as string?
         // Get current time
         auto now = std::chrono::system_clock::now();
         std::time_t now_c = std::chrono::system_clock::to_time_t(now);
         std::tm now_tm = *std::localtime(&now_c);
         // Open CSV file in append mode
-        std::ofstream file("~/PILI_stealth_killer/pili_stealth_ws/record/command_history.csv", std::ios::app);
+        std::ofstream file("/root/PILI_stealth_killer/pili_stealth_ws/record/command_history.csv", std::ios::app);
         if (file.is_open()) {
             // Write the inputs to the CSV file
             file << std::put_time(&now_tm, "%Y-%m-%d %H:%M:%S") << ","
@@ -60,7 +62,7 @@ int main(int argc, char **argv)
     }
     
     rclcpp::spin(node);
-    std::ofstream file("~/PILI_stealth_killer/pili_stealth_ws/record/command_history.csv", std::ios::app);
+    std::ofstream file("/root/PILI_stealth_killer/pili_stealth_ws/record/command_history.csv", std::ios::app);
     if (file.is_open()) {
         // Write the end to the CSV file
         file <<"\n####################\n";

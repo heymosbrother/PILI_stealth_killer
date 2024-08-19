@@ -69,66 +69,43 @@ include CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/progres
 # Include the compile flags for this target's objects.
 include CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
 
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/command_interfaces/msg/Commands.idl
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/command_interfaces/srv/MyCommand.idl
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/command_interfaces/srv/Command.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
-	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_fastrtps_c__arguments.json
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_fastrtps_c__arguments.json
 
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp: rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp: rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp
 
-rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.o: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp
+CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.o: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.o -MF CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.o.d -o CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.o -c /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp
 
-rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp: rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp
+CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp > CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.i
 
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.o: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.o: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.o -MF CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.o.d -o CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.o -c /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp
-
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp > CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.i
-
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp -o CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.s
-
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.o: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.o: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.o -MF CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.o.d -o CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.o -c /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp
-
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp > CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.i
-
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp -o CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.s
+CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp -o CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.s
 
 # Object files for target command_interfaces__rosidl_typesupport_fastrtps_c
 command_interfaces__rosidl_typesupport_fastrtps_c_OBJECTS = \
-"CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.o" \
-"CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.o"
+"CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.o"
 
 # External object files for target command_interfaces__rosidl_typesupport_fastrtps_c
 command_interfaces__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
-libcommand_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.o
-libcommand_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.o
+libcommand_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.o
 libcommand_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make
 libcommand_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 libcommand_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
@@ -138,7 +115,7 @@ libcommand_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/lib
 libcommand_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libcommand_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librcutils.so
 libcommand_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcommand_interfaces__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libcommand_interfaces__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -149,10 +126,8 @@ CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/clean
 
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__rosidl_typesupport_fastrtps_c.h
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__rosidl_typesupport_fastrtps_c.h
-CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp
+CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp
 	cd /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces /root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/depend
 

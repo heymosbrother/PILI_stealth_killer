@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_generator_py/command_interfaces/msg/_commands_s.c" "CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/msg/_commands_s.c.o" "gcc" "CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/msg/_commands_s.c.o.d"
-  "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_generator_py/command_interfaces/srv/_my_command_s.c" "CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/srv/_my_command_s.c.o" "gcc" "CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/srv/_my_command_s.c.o.d"
+  "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_generator_py/command_interfaces/srv/_command_s.c" "CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/srv/_command_s.c.o" "gcc" "CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/srv/_command_s.c.o.d"
   )
 
 # Targets to which this target links.

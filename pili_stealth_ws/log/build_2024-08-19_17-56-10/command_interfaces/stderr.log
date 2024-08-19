@@ -1,0 +1,4 @@
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces/src/send_command_service.cpp:[m[K In function ‘[01m[Kint HandleCommand(std::shared_ptr<command_interfaces::srv::Command_Request_<std::allocator<void> > >, std::shared_ptr<command_interfaces::srv::Command_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces/src/send_command_service.cpp:73:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   73 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

@@ -1,0 +1,153 @@
+[  2%] Built target command_interfaces__cpp
+[ 11%] Built target command_interfaces__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_copy_command_interfaces
+[ 17%] Built target server
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[ 25%] Built target command_interfaces__rosidl_typesupport_cpp
+[ 42%] Built target command_interfaces__rosidl_typesupport_fastrtps_c
+[ 42%] Built target command_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 45%] [32mBuilding CXX object CMakeFiles/client.dir/src/send_command_client.cpp.o[0m
+[ 54%] Built target command_interfaces__rosidl_typesupport_introspection_c
+[ 71%] Built target command_interfaces__rosidl_typesupport_introspection_cpp
+[ 71%] Built target command_interfaces__rosidl_typesupport_c
+[ 71%] Built target command_interfaces
+[ 74%] Built target command_interfaces__py
+[ 80%] Built target command_interfaces__rosidl_generator_py
+[ 91%] Built target command_interfaces__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target command_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target command_interfaces__rosidl_typesupport_c__pyext
+running egg_info
+writing command_interfaces.egg-info/PKG-INFO
+writing dependency_links to command_interfaces.egg-info/dependency_links.txt
+writing top-level names to command_interfaces.egg-info/top_level.txt
+reading manifest file 'command_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'command_interfaces.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_command_interfaces_egg
+[100%] [32m[1mLinking CXX executable client[0m
+[100%] Built target client
+-- Install configuration: ""
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/ament_index/resource_index/rosidl_interfaces/command_interfaces
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/command.h
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/command__struct.h
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/command__functions.c
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/command__functions.h
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/command__type_support.h
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/library_path.sh
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/library_path.dsv
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_generator_c.so
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/command__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/command.hpp
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/command__traits.hpp
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/command__builder.hpp
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/command__struct.hpp
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/dds_fastrtps
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/command__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/command__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/command__type_support.c
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_c.so
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/command__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/include/command_interfaces/command_interfaces/srv/detail/command__type_support.cpp
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_typesupport_cpp.so
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/pythonpath.sh
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/pythonpath.dsv
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces-0.0.0-py3.10.egg-info
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/libcommand_interfaces__rosidl_generator_py.so
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/srv
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/srv/_command.py
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/srv/_command_s.c
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/srv/__init__.py
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/__init__.py
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_c.c
+Listing '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces'...
+Compiling '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/__init__.py'...
+Listing '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/srv'...
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages/command_interfaces/command_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/libcommand_interfaces__rosidl_generator_py.so
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/srv/Command.idl
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/srv/Command.srv
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/srv/Command_Request.msg
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/srv/Command_Response.msg
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/command_interfaces/server
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/command_interfaces/client
+-- Set runtime path of "/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib/command_interfaces/client" to ""
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/ament_index/resource_index/package_run_dependencies/command_interfaces
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/ament_index/resource_index/parent_prefix_path/command_interfaces
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/ament_prefix_path.sh
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/path.sh
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/environment/path.dsv
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/local_setup.bash
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/local_setup.sh
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/local_setup.zsh
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/local_setup.dsv
+-- Installing: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/package.dsv
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/ament_index/resource_index/packages/command_interfaces
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_generator_cExport.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_generator_cppExport.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_generator_pyExport.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/export_command_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfacesConfig.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/cmake/command_interfacesConfig-version.cmake
+-- Up-to-date: /root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/share/command_interfaces/package.xml

@@ -3,8 +3,7 @@
   "output_dir": "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_fastrtps_c/command_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
-    "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_adapter/command_interfaces:msg/Commands.idl",
-    "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_adapter/command_interfaces:srv/MyCommand.idl"
+    "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_adapter/command_interfaces:srv/Command.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
@@ -15,7 +14,6 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
-    "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_adapter/command_interfaces/msg/Commands.idl",
-    "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_adapter/command_interfaces/srv/MyCommand.idl"
+    "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_adapter/command_interfaces/srv/Command.idl"
   ]
 }

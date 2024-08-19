@@ -3,8 +3,7 @@
   "output_dir": "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_generator_c/command_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_adapter/command_interfaces:msg/Commands.idl",
-    "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_adapter/command_interfaces:srv/MyCommand.idl"
+    "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_adapter/command_interfaces:srv/Command.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -20,7 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_adapter/command_interfaces/msg/Commands.idl",
-    "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_adapter/command_interfaces/srv/MyCommand.idl"
+    "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_adapter/command_interfaces/srv/Command.idl"
   ]
 }

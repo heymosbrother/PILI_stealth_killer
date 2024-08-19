@@ -1,0 +1,2 @@
+Invoking command in '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces -- -j4 -l4
+Invoked command in '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces -- -j4 -l4

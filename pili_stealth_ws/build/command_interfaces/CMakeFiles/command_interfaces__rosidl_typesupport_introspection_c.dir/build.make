@@ -69,73 +69,50 @@ include CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/pr
 # Include the compile flags for this target's objects.
 include CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
 
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h: /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h: rosidl_adapter/command_interfaces/msg/Commands.idl
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h: rosidl_adapter/command_interfaces/srv/MyCommand.idl
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__rosidl_typesupport_introspection_c.h: /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__rosidl_typesupport_introspection_c.h: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__rosidl_typesupport_introspection_c.h: rosidl_adapter/command_interfaces/srv/Command.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_introspection_c__arguments.json
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_introspection_c__arguments.json
 
-rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c: rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c
 
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c: rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c
+CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.o: CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.o: rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c
+CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.o: CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.o -MF CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.o.d -o CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.o -c /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c
 
-rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c: rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c
+CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c > CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.i
 
-CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.o: CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
-CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.o: rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c
-CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.o: CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.o -MF CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.o.d -o CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.o -c /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c
-
-CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c > CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.i
-
-CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c -o CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.s
-
-CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.o: CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
-CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.o: rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c
-CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.o: CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.o -MF CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.o.d -o CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.o -c /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c
-
-CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c > CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.i
-
-CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c -o CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.s
+CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c -o CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.s
 
 # Object files for target command_interfaces__rosidl_typesupport_introspection_c
 command_interfaces__rosidl_typesupport_introspection_c_OBJECTS = \
-"CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.o" \
-"CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.o"
+"CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.o"
 
 # External object files for target command_interfaces__rosidl_typesupport_introspection_c
 command_interfaces__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
-libcommand_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.o
-libcommand_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.o
+libcommand_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.o
 libcommand_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/build.make
 libcommand_interfaces__rosidl_typesupport_introspection_c.so: libcommand_interfaces__rosidl_generator_c.so
 libcommand_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libcommand_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libcommand_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libcommand_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libcommand_interfaces__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libcommand_interfaces__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -146,10 +123,8 @@ CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/clean
 
-CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__rosidl_typesupport_introspection_c.h
-CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c
-CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__rosidl_typesupport_introspection_c.h
-CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c
+CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__rosidl_typesupport_introspection_c.h
+CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c
 	cd /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces /root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/depend
 

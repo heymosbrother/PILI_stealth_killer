@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000619] (command_interfaces) JobQueued: {'identifier': 'command_interfaces', 'dependencies': OrderedDict()}
+[0.000912] (command_interfaces) JobStarted: {'identifier': 'command_interfaces'}
+[0.012002] (command_interfaces) JobProgress: {'identifier': 'command_interfaces', 'progress': 'cmake'}
+[0.012111] (command_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/PILI_stealth_killer/pili_stealth_ws/src/command_interfaces', '-DCMAKE_INSTALL_PREFIX=/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces'], 'cwd': '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces', 'env': OrderedDict([('HOSTNAME', 'rpi5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/PILI_stealth_killer'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces:/opt/ros/humble'), ('PWD', '/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/PILI_stealth_killer/pili_stealth_ws/install/command_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.072303] (command_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100448] (-) TimerEvent: {}
+[0.132099] (command_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.139723] (command_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200572] (-) TimerEvent: {}
+[0.209635] (command_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.219134] (command_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.219299] (command_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.219437] (command_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.223057] (command_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300695] (-) TimerEvent: {}
+[0.312151] (command_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.328773] (command_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.329230] (command_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.330073] (command_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.334570] (command_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400778] (-) TimerEvent: {}
+[0.492915] (command_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500886] (-) TimerEvent: {}
+[0.601225] (-) TimerEvent: {}
+[0.611459] (command_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.662129] (command_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.668813] (command_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.680209] (command_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.695946] (command_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.701283] (-) TimerEvent: {}
+[0.717336] (command_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.776909] (command_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.780292] (command_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801371] (-) TimerEvent: {}
+[0.855144] (command_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.875109] (command_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.901460] (-) TimerEvent: {}
+[0.904395] (command_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.916818] (command_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.995424] (command_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.995818] (command_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001540] (-) TimerEvent: {}
+[1.073705] (command_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.073918] (command_interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101631] (-) TimerEvent: {}
+[1.147148] (command_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.160484] (command_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[1.160795] (command_interfaces) StderrLine: {'line': b'  By not providing "Findcommand_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.160882] (command_interfaces) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.160942] (command_interfaces) StderrLine: {'line': b'  "command_interfaces", but CMake did not find one.\n'}
+[1.161001] (command_interfaces) StderrLine: {'line': b'\n'}
+[1.161056] (command_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.161111] (command_interfaces) StderrLine: {'line': b'  "command_interfaces" with any of the following names:\n'}
+[1.161165] (command_interfaces) StderrLine: {'line': b'\n'}
+[1.161221] (command_interfaces) StderrLine: {'line': b'    command_interfacesConfig.cmake\n'}
+[1.161274] (command_interfaces) StderrLine: {'line': b'    command_interfaces-config.cmake\n'}
+[1.161327] (command_interfaces) StderrLine: {'line': b'\n'}
+[1.161380] (command_interfaces) StderrLine: {'line': b'  Add the installation prefix of "command_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[1.161435] (command_interfaces) StderrLine: {'line': b'  set "command_interfaces_DIR" to a directory containing one of the above\n'}
+[1.161488] (command_interfaces) StderrLine: {'line': b'  files.  If "command_interfaces" provides a separate development package or\n'}
+[1.161541] (command_interfaces) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[1.161594] (command_interfaces) StderrLine: {'line': b'\n'}
+[1.161646] (command_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.161699] (command_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.161764] (command_interfaces) StdoutLine: {'line': b'See also "/root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.171489] (command_interfaces) CommandEnded: {'returncode': 1}
+[1.192571] (command_interfaces) JobEnded: {'identifier': 'command_interfaces', 'rc': 1}
+[1.201731] (-) TimerEvent: {}
+[1.203103] (-) EventReactorShutdown: {}

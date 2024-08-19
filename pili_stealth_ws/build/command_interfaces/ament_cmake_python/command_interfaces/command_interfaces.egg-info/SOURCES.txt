@@ -4,3 +4,5 @@ command_interfaces.egg-info/PKG-INFO
 command_interfaces.egg-info/SOURCES.txt
 command_interfaces.egg-info/dependency_links.txt
 command_interfaces.egg-info/top_level.txt
+command_interfaces/srv/__init__.py
+command_interfaces/srv/_command.py

@@ -237,32 +237,6 @@ command_interfaces__rosidl_typesupport_fastrtps_c/fast:
 .PHONY : command_interfaces__rosidl_typesupport_fastrtps_c/fast
 
 #=============================================================================
-# Target rules for targets named command_interfaces__rosidl_typesupport_introspection_c
-
-# Build rule for target.
-command_interfaces__rosidl_typesupport_introspection_c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 command_interfaces__rosidl_typesupport_introspection_c
-.PHONY : command_interfaces__rosidl_typesupport_introspection_c
-
-# fast build rule for target.
-command_interfaces__rosidl_typesupport_introspection_c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/build
-.PHONY : command_interfaces__rosidl_typesupport_introspection_c/fast
-
-#=============================================================================
-# Target rules for targets named command_interfaces__rosidl_typesupport_c
-
-# Build rule for target.
-command_interfaces__rosidl_typesupport_c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 command_interfaces__rosidl_typesupport_c
-.PHONY : command_interfaces__rosidl_typesupport_c
-
-# fast build rule for target.
-command_interfaces__rosidl_typesupport_c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/build
-.PHONY : command_interfaces__rosidl_typesupport_c/fast
-
-#=============================================================================
 # Target rules for targets named command_interfaces__cpp
 
 # Build rule for target.
@@ -287,6 +261,32 @@ command_interfaces__rosidl_typesupport_fastrtps_cpp: cmake_check_build_system
 command_interfaces__rosidl_typesupport_fastrtps_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build
 .PHONY : command_interfaces__rosidl_typesupport_fastrtps_cpp/fast
+
+#=============================================================================
+# Target rules for targets named command_interfaces__rosidl_typesupport_introspection_c
+
+# Build rule for target.
+command_interfaces__rosidl_typesupport_introspection_c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 command_interfaces__rosidl_typesupport_introspection_c
+.PHONY : command_interfaces__rosidl_typesupport_introspection_c
+
+# fast build rule for target.
+command_interfaces__rosidl_typesupport_introspection_c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/build
+.PHONY : command_interfaces__rosidl_typesupport_introspection_c/fast
+
+#=============================================================================
+# Target rules for targets named command_interfaces__rosidl_typesupport_c
+
+# Build rule for target.
+command_interfaces__rosidl_typesupport_c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 command_interfaces__rosidl_typesupport_c
+.PHONY : command_interfaces__rosidl_typesupport_c
+
+# fast build rule for target.
+command_interfaces__rosidl_typesupport_c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/build
+.PHONY : command_interfaces__rosidl_typesupport_c/fast
 
 #=============================================================================
 # Target rules for targets named command_interfaces__rosidl_typesupport_introspection_cpp
@@ -393,6 +393,32 @@ command_interfaces__rosidl_typesupport_c__pyext/fast:
 .PHONY : command_interfaces__rosidl_typesupport_c__pyext/fast
 
 #=============================================================================
+# Target rules for targets named server
+
+# Build rule for target.
+server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server
+.PHONY : server
+
+# fast build rule for target.
+server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+.PHONY : server/fast
+
+#=============================================================================
+# Target rules for targets named client
+
+# Build rule for target.
+client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client
+.PHONY : client
+
+# fast build rule for target.
+client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+.PHONY : client/fast
+
+#=============================================================================
 # Target rules for targets named command_interfaces__py
 
 # Build rule for target.
@@ -405,53 +431,29 @@ command_interfaces__py/fast:
 	$(MAKE) $(MAKESILENT) -f command_interfaces__py/CMakeFiles/command_interfaces__py.dir/build.make command_interfaces__py/CMakeFiles/command_interfaces__py.dir/build
 .PHONY : command_interfaces__py/fast
 
-rosidl_generator_c/command_interfaces/msg/detail/commands__functions.o: rosidl_generator_c/command_interfaces/msg/detail/commands__functions.c.o
-.PHONY : rosidl_generator_c/command_interfaces/msg/detail/commands__functions.o
+rosidl_generator_c/command_interfaces/srv/detail/command__functions.o: rosidl_generator_c/command_interfaces/srv/detail/command__functions.c.o
+.PHONY : rosidl_generator_c/command_interfaces/srv/detail/command__functions.o
 
 # target to build an object file
-rosidl_generator_c/command_interfaces/msg/detail/commands__functions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_c.dir/rosidl_generator_c/command_interfaces/msg/detail/commands__functions.c.o
-.PHONY : rosidl_generator_c/command_interfaces/msg/detail/commands__functions.c.o
+rosidl_generator_c/command_interfaces/srv/detail/command__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_c.dir/rosidl_generator_c/command_interfaces/srv/detail/command__functions.c.o
+.PHONY : rosidl_generator_c/command_interfaces/srv/detail/command__functions.c.o
 
-rosidl_generator_c/command_interfaces/msg/detail/commands__functions.i: rosidl_generator_c/command_interfaces/msg/detail/commands__functions.c.i
-.PHONY : rosidl_generator_c/command_interfaces/msg/detail/commands__functions.i
-
-# target to preprocess a source file
-rosidl_generator_c/command_interfaces/msg/detail/commands__functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_c.dir/rosidl_generator_c/command_interfaces/msg/detail/commands__functions.c.i
-.PHONY : rosidl_generator_c/command_interfaces/msg/detail/commands__functions.c.i
-
-rosidl_generator_c/command_interfaces/msg/detail/commands__functions.s: rosidl_generator_c/command_interfaces/msg/detail/commands__functions.c.s
-.PHONY : rosidl_generator_c/command_interfaces/msg/detail/commands__functions.s
-
-# target to generate assembly for a file
-rosidl_generator_c/command_interfaces/msg/detail/commands__functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_c.dir/rosidl_generator_c/command_interfaces/msg/detail/commands__functions.c.s
-.PHONY : rosidl_generator_c/command_interfaces/msg/detail/commands__functions.c.s
-
-rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.o: rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.c.o
-.PHONY : rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.o
-
-# target to build an object file
-rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_c.dir/rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.c.o
-.PHONY : rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.c.o
-
-rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.i: rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.c.i
-.PHONY : rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.i
+rosidl_generator_c/command_interfaces/srv/detail/command__functions.i: rosidl_generator_c/command_interfaces/srv/detail/command__functions.c.i
+.PHONY : rosidl_generator_c/command_interfaces/srv/detail/command__functions.i
 
 # target to preprocess a source file
-rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_c.dir/rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.c.i
-.PHONY : rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.c.i
+rosidl_generator_c/command_interfaces/srv/detail/command__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_c.dir/rosidl_generator_c/command_interfaces/srv/detail/command__functions.c.i
+.PHONY : rosidl_generator_c/command_interfaces/srv/detail/command__functions.c.i
 
-rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.s: rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.c.s
-.PHONY : rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.s
+rosidl_generator_c/command_interfaces/srv/detail/command__functions.s: rosidl_generator_c/command_interfaces/srv/detail/command__functions.c.s
+.PHONY : rosidl_generator_c/command_interfaces/srv/detail/command__functions.s
 
 # target to generate assembly for a file
-rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_c.dir/rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.c.s
-.PHONY : rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.c.s
+rosidl_generator_c/command_interfaces/srv/detail/command__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_c.dir/rosidl_generator_c/command_interfaces/srv/detail/command__functions.c.s
+.PHONY : rosidl_generator_c/command_interfaces/srv/detail/command__functions.c.s
 
 rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_c.o: rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_c.c.o
 .PHONY : rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_c.o
@@ -525,341 +527,221 @@ rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesuppo
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_introspection_c.c.s
 .PHONY : rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_introspection_c.c.s
 
-rosidl_generator_py/command_interfaces/msg/_commands_s.o: rosidl_generator_py/command_interfaces/msg/_commands_s.c.o
-.PHONY : rosidl_generator_py/command_interfaces/msg/_commands_s.o
+rosidl_generator_py/command_interfaces/srv/_command_s.o: rosidl_generator_py/command_interfaces/srv/_command_s.c.o
+.PHONY : rosidl_generator_py/command_interfaces/srv/_command_s.o
 
 # target to build an object file
-rosidl_generator_py/command_interfaces/msg/_commands_s.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/msg/_commands_s.c.o
-.PHONY : rosidl_generator_py/command_interfaces/msg/_commands_s.c.o
+rosidl_generator_py/command_interfaces/srv/_command_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/srv/_command_s.c.o
+.PHONY : rosidl_generator_py/command_interfaces/srv/_command_s.c.o
 
-rosidl_generator_py/command_interfaces/msg/_commands_s.i: rosidl_generator_py/command_interfaces/msg/_commands_s.c.i
-.PHONY : rosidl_generator_py/command_interfaces/msg/_commands_s.i
+rosidl_generator_py/command_interfaces/srv/_command_s.i: rosidl_generator_py/command_interfaces/srv/_command_s.c.i
+.PHONY : rosidl_generator_py/command_interfaces/srv/_command_s.i
 
 # target to preprocess a source file
-rosidl_generator_py/command_interfaces/msg/_commands_s.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/msg/_commands_s.c.i
-.PHONY : rosidl_generator_py/command_interfaces/msg/_commands_s.c.i
+rosidl_generator_py/command_interfaces/srv/_command_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/srv/_command_s.c.i
+.PHONY : rosidl_generator_py/command_interfaces/srv/_command_s.c.i
 
-rosidl_generator_py/command_interfaces/msg/_commands_s.s: rosidl_generator_py/command_interfaces/msg/_commands_s.c.s
-.PHONY : rosidl_generator_py/command_interfaces/msg/_commands_s.s
+rosidl_generator_py/command_interfaces/srv/_command_s.s: rosidl_generator_py/command_interfaces/srv/_command_s.c.s
+.PHONY : rosidl_generator_py/command_interfaces/srv/_command_s.s
 
 # target to generate assembly for a file
-rosidl_generator_py/command_interfaces/msg/_commands_s.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/msg/_commands_s.c.s
-.PHONY : rosidl_generator_py/command_interfaces/msg/_commands_s.c.s
+rosidl_generator_py/command_interfaces/srv/_command_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/srv/_command_s.c.s
+.PHONY : rosidl_generator_py/command_interfaces/srv/_command_s.c.s
 
-rosidl_generator_py/command_interfaces/srv/_my_command_s.o: rosidl_generator_py/command_interfaces/srv/_my_command_s.c.o
-.PHONY : rosidl_generator_py/command_interfaces/srv/_my_command_s.o
+rosidl_typesupport_c/command_interfaces/srv/command__type_support.o: rosidl_typesupport_c/command_interfaces/srv/command__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/command_interfaces/srv/command__type_support.o
 
 # target to build an object file
-rosidl_generator_py/command_interfaces/srv/_my_command_s.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/srv/_my_command_s.c.o
-.PHONY : rosidl_generator_py/command_interfaces/srv/_my_command_s.c.o
+rosidl_typesupport_c/command_interfaces/srv/command__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/command_interfaces/srv/command__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/command_interfaces/srv/command__type_support.cpp.o
 
-rosidl_generator_py/command_interfaces/srv/_my_command_s.i: rosidl_generator_py/command_interfaces/srv/_my_command_s.c.i
-.PHONY : rosidl_generator_py/command_interfaces/srv/_my_command_s.i
+rosidl_typesupport_c/command_interfaces/srv/command__type_support.i: rosidl_typesupport_c/command_interfaces/srv/command__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/command_interfaces/srv/command__type_support.i
 
 # target to preprocess a source file
-rosidl_generator_py/command_interfaces/srv/_my_command_s.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/srv/_my_command_s.c.i
-.PHONY : rosidl_generator_py/command_interfaces/srv/_my_command_s.c.i
+rosidl_typesupport_c/command_interfaces/srv/command__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/command_interfaces/srv/command__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/command_interfaces/srv/command__type_support.cpp.i
 
-rosidl_generator_py/command_interfaces/srv/_my_command_s.s: rosidl_generator_py/command_interfaces/srv/_my_command_s.c.s
-.PHONY : rosidl_generator_py/command_interfaces/srv/_my_command_s.s
+rosidl_typesupport_c/command_interfaces/srv/command__type_support.s: rosidl_typesupport_c/command_interfaces/srv/command__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/command_interfaces/srv/command__type_support.s
 
 # target to generate assembly for a file
-rosidl_generator_py/command_interfaces/srv/_my_command_s.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/command_interfaces__rosidl_generator_py.dir/rosidl_generator_py/command_interfaces/srv/_my_command_s.c.s
-.PHONY : rosidl_generator_py/command_interfaces/srv/_my_command_s.c.s
+rosidl_typesupport_c/command_interfaces/srv/command__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/command_interfaces/srv/command__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/command_interfaces/srv/command__type_support.cpp.s
 
-rosidl_typesupport_c/command_interfaces/msg/commands__type_support.o: rosidl_typesupport_c/command_interfaces/msg/commands__type_support.cpp.o
-.PHONY : rosidl_typesupport_c/command_interfaces/msg/commands__type_support.o
+rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.o: rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.o
 
 # target to build an object file
-rosidl_typesupport_c/command_interfaces/msg/commands__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/command_interfaces/msg/commands__type_support.cpp.o
-.PHONY : rosidl_typesupport_c/command_interfaces/msg/commands__type_support.cpp.o
+rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.cpp.o
 
-rosidl_typesupport_c/command_interfaces/msg/commands__type_support.i: rosidl_typesupport_c/command_interfaces/msg/commands__type_support.cpp.i
-.PHONY : rosidl_typesupport_c/command_interfaces/msg/commands__type_support.i
+rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.i: rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.i
 
 # target to preprocess a source file
-rosidl_typesupport_c/command_interfaces/msg/commands__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/command_interfaces/msg/commands__type_support.cpp.i
-.PHONY : rosidl_typesupport_c/command_interfaces/msg/commands__type_support.cpp.i
+rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.cpp.i
 
-rosidl_typesupport_c/command_interfaces/msg/commands__type_support.s: rosidl_typesupport_c/command_interfaces/msg/commands__type_support.cpp.s
-.PHONY : rosidl_typesupport_c/command_interfaces/msg/commands__type_support.s
+rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.s: rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.s
 
 # target to generate assembly for a file
-rosidl_typesupport_c/command_interfaces/msg/commands__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/command_interfaces/msg/commands__type_support.cpp.s
-.PHONY : rosidl_typesupport_c/command_interfaces/msg/commands__type_support.cpp.s
+rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.cpp.s
 
-rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.o: rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.cpp.o
-.PHONY : rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.o
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.o: rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.o
 
 # target to build an object file
-rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.cpp.o
-.PHONY : rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.cpp.o
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.o
 
-rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.i: rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.cpp.i
-.PHONY : rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.i
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.i: rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.i
 
 # target to preprocess a source file
-rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.cpp.i
-.PHONY : rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.cpp.i
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.i
 
-rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.s: rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.cpp.s
-.PHONY : rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.s
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.s: rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.s
 
 # target to generate assembly for a file
-rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.cpp.s
-.PHONY : rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.cpp.s
+rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.cpp.s
 
-rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.o: rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.cpp.o
-.PHONY : rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.o
+rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.o: rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.o
 
 # target to build an object file
-rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.cpp.o
-.PHONY : rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.cpp.o
+rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.cpp.o
 
-rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.i: rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.cpp.i
-.PHONY : rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.i
+rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.i: rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.i
 
 # target to preprocess a source file
-rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.cpp.i
-.PHONY : rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.cpp.i
+rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.cpp.i
 
-rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.s: rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.cpp.s
-.PHONY : rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.s
+rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.s: rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.s
 
 # target to generate assembly for a file
-rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.cpp.s
-.PHONY : rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.cpp.s
+rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.cpp.s
 
-rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.o: rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.cpp.o
-.PHONY : rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.o
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.o: rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.o
 
 # target to build an object file
-rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.cpp.o
-.PHONY : rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.cpp.o
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.o
 
-rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.i: rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.cpp.i
-.PHONY : rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.i
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.i: rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.i
 
 # target to preprocess a source file
-rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.cpp.i
-.PHONY : rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.cpp.i
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.i
 
-rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.s: rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.cpp.s
-.PHONY : rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.s
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.s: rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.s
 
 # target to generate assembly for a file
-rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.cpp.s
-.PHONY : rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.cpp.s
+rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.c.s
 
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.o: rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.o
+rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.o: rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.o
 
 # target to build an object file
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.o
+rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.cpp.o
 
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.i: rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.i
+rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.i: rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.i
 
 # target to preprocess a source file
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.i
+rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.cpp.i
 
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.s: rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.s
+rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.s: rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.s
 
 # target to generate assembly for a file
-rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.cpp.s
+rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.cpp.s
 
-rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.o: rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.o
+src/send_command_client.o: src/send_command_client.cpp.o
+.PHONY : src/send_command_client.o
 
 # target to build an object file
-rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.o
+src/send_command_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/send_command_client.cpp.o
+.PHONY : src/send_command_client.cpp.o
 
-rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.i: rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.i
+src/send_command_client.i: src/send_command_client.cpp.i
+.PHONY : src/send_command_client.i
 
 # target to preprocess a source file
-rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.i
+src/send_command_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/send_command_client.cpp.i
+.PHONY : src/send_command_client.cpp.i
 
-rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.s: rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.s
+src/send_command_client.s: src/send_command_client.cpp.s
+.PHONY : src/send_command_client.s
 
 # target to generate assembly for a file
-rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.cpp.s
+src/send_command_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/send_command_client.cpp.s
+.PHONY : src/send_command_client.cpp.s
 
-rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.o: rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.o
+src/send_command_service.o: src/send_command_service.cpp.o
+.PHONY : src/send_command_service.o
 
 # target to build an object file
-rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.cpp.o
+src/send_command_service.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/send_command_service.cpp.o
+.PHONY : src/send_command_service.cpp.o
 
-rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.i: rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.cpp.i
-
-rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.s: rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.cpp.s
-
-rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.o: rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.o
-
-# target to build an object file
-rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.cpp.o
-
-rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.i: rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.i
+src/send_command_service.i: src/send_command_service.cpp.i
+.PHONY : src/send_command_service.i
 
 # target to preprocess a source file
-rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.cpp.i
+src/send_command_service.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/send_command_service.cpp.i
+.PHONY : src/send_command_service.cpp.i
 
-rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.s: rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.cpp.s
-
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.o: rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.o
-.PHONY : rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.o
-
-# target to build an object file
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.o
-.PHONY : rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.o
-
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.i: rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.i
-.PHONY : rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.i
-.PHONY : rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.i
-
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.s: rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.s
-.PHONY : rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.s
+src/send_command_service.s: src/send_command_service.cpp.s
+.PHONY : src/send_command_service.s
 
 # target to generate assembly for a file
-rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.s
-.PHONY : rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.c.s
-
-rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.o: rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.o
-.PHONY : rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.o
-
-# target to build an object file
-rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.o
-.PHONY : rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.o
-
-rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.i: rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.i
-.PHONY : rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.i
-.PHONY : rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.i
-
-rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.s: rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.s
-.PHONY : rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.s
-.PHONY : rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.c.s
-
-rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.o: rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.cpp.o
-.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.o
-
-# target to build an object file
-rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.cpp.o
-.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.cpp.o
-
-rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.i: rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.cpp.i
-.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.cpp.i
-.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.cpp.i
-
-rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.s: rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.cpp.s
-.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.cpp.s
-.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.cpp.s
-
-rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.o: rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.cpp.o
-.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.o
-
-# target to build an object file
-rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.cpp.o
-.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.cpp.o
-
-rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.i: rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.cpp.i
-.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.cpp.i
-.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.cpp.i
-
-rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.s: rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.cpp.s
-.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/command_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.cpp.s
-.PHONY : rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.cpp.s
+src/send_command_service.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/send_command_service.cpp.s
+.PHONY : src/send_command_service.cpp.s
 
 # Help Target
 help:
@@ -881,6 +763,7 @@ help:
 	@echo "... command_interfaces__py"
 	@echo "... command_interfaces_uninstall"
 	@echo "... uninstall"
+	@echo "... client"
 	@echo "... command_interfaces__rosidl_generator_c"
 	@echo "... command_interfaces__rosidl_generator_py"
 	@echo "... command_interfaces__rosidl_typesupport_c"
@@ -892,12 +775,10 @@ help:
 	@echo "... command_interfaces__rosidl_typesupport_introspection_c"
 	@echo "... command_interfaces__rosidl_typesupport_introspection_c__pyext"
 	@echo "... command_interfaces__rosidl_typesupport_introspection_cpp"
-	@echo "... rosidl_generator_c/command_interfaces/msg/detail/commands__functions.o"
-	@echo "... rosidl_generator_c/command_interfaces/msg/detail/commands__functions.i"
-	@echo "... rosidl_generator_c/command_interfaces/msg/detail/commands__functions.s"
-	@echo "... rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.o"
-	@echo "... rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.i"
-	@echo "... rosidl_generator_c/command_interfaces/srv/detail/my_command__functions.s"
+	@echo "... server"
+	@echo "... rosidl_generator_c/command_interfaces/srv/detail/command__functions.o"
+	@echo "... rosidl_generator_c/command_interfaces/srv/detail/command__functions.i"
+	@echo "... rosidl_generator_c/command_interfaces/srv/detail/command__functions.s"
 	@echo "... rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_c.o"
 	@echo "... rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_c.i"
 	@echo "... rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_c.s"
@@ -907,48 +788,33 @@ help:
 	@echo "... rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_introspection_c.o"
 	@echo "... rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_introspection_c.i"
 	@echo "... rosidl_generator_py/command_interfaces/_command_interfaces_s.ep.rosidl_typesupport_introspection_c.s"
-	@echo "... rosidl_generator_py/command_interfaces/msg/_commands_s.o"
-	@echo "... rosidl_generator_py/command_interfaces/msg/_commands_s.i"
-	@echo "... rosidl_generator_py/command_interfaces/msg/_commands_s.s"
-	@echo "... rosidl_generator_py/command_interfaces/srv/_my_command_s.o"
-	@echo "... rosidl_generator_py/command_interfaces/srv/_my_command_s.i"
-	@echo "... rosidl_generator_py/command_interfaces/srv/_my_command_s.s"
-	@echo "... rosidl_typesupport_c/command_interfaces/msg/commands__type_support.o"
-	@echo "... rosidl_typesupport_c/command_interfaces/msg/commands__type_support.i"
-	@echo "... rosidl_typesupport_c/command_interfaces/msg/commands__type_support.s"
-	@echo "... rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.o"
-	@echo "... rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.i"
-	@echo "... rosidl_typesupport_c/command_interfaces/srv/my_command__type_support.s"
-	@echo "... rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.o"
-	@echo "... rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.i"
-	@echo "... rosidl_typesupport_cpp/command_interfaces/msg/commands__type_support.s"
-	@echo "... rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.o"
-	@echo "... rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.i"
-	@echo "... rosidl_typesupport_cpp/command_interfaces/srv/my_command__type_support.s"
-	@echo "... rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.o"
-	@echo "... rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.i"
-	@echo "... rosidl_typesupport_fastrtps_c/command_interfaces/msg/detail/commands__type_support_c.s"
-	@echo "... rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.o"
-	@echo "... rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.i"
-	@echo "... rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/my_command__type_support_c.s"
-	@echo "... rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.o"
-	@echo "... rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.i"
-	@echo "... rosidl_typesupport_fastrtps_cpp/command_interfaces/msg/detail/dds_fastrtps/commands__type_support.s"
-	@echo "... rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.o"
-	@echo "... rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.i"
-	@echo "... rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/my_command__type_support.s"
-	@echo "... rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.o"
-	@echo "... rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.i"
-	@echo "... rosidl_typesupport_introspection_c/command_interfaces/msg/detail/commands__type_support.s"
-	@echo "... rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.o"
-	@echo "... rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.i"
-	@echo "... rosidl_typesupport_introspection_c/command_interfaces/srv/detail/my_command__type_support.s"
-	@echo "... rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.o"
-	@echo "... rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.i"
-	@echo "... rosidl_typesupport_introspection_cpp/command_interfaces/msg/detail/commands__type_support.s"
-	@echo "... rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.o"
-	@echo "... rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.i"
-	@echo "... rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/my_command__type_support.s"
+	@echo "... rosidl_generator_py/command_interfaces/srv/_command_s.o"
+	@echo "... rosidl_generator_py/command_interfaces/srv/_command_s.i"
+	@echo "... rosidl_generator_py/command_interfaces/srv/_command_s.s"
+	@echo "... rosidl_typesupport_c/command_interfaces/srv/command__type_support.o"
+	@echo "... rosidl_typesupport_c/command_interfaces/srv/command__type_support.i"
+	@echo "... rosidl_typesupport_c/command_interfaces/srv/command__type_support.s"
+	@echo "... rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.o"
+	@echo "... rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.i"
+	@echo "... rosidl_typesupport_cpp/command_interfaces/srv/command__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/command_interfaces/srv/detail/command__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/command_interfaces/srv/detail/dds_fastrtps/command__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/command_interfaces/srv/detail/command__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/command_interfaces/srv/detail/command__type_support.s"
+	@echo "... src/send_command_client.o"
+	@echo "... src/send_command_client.i"
+	@echo "... src/send_command_client.s"
+	@echo "... src/send_command_service.o"
+	@echo "... src/send_command_service.i"
+	@echo "... src/send_command_service.s"
 .PHONY : help
 
 

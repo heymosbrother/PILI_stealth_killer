@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_command_interfaces_egg.dir/compiler_
 include CMakeFiles/ament_cmake_python_build_command_interfaces_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_command_interfaces_egg:
-	cd /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/ament_cmake_python/command_interfaces && /usr/bin/python3.10 setup.py egg_info
+	cd /root/PILI_stealth_killer/pili_stealth_ws/build/command_interfaces/ament_cmake_python/command_interfaces && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_command_interfaces_egg: CMakeFiles/ament_cmake_python_build_command_interfaces_egg
 ament_cmake_python_build_command_interfaces_egg: CMakeFiles/ament_cmake_python_build_command_interfaces_egg.dir/build.make
