@@ -6,4 +6,4 @@ uint8_t input4
 uint8_t input5
 uint8_t input6
 ---------
-uint8_t[6] commands_array
+uint8_t[6] command_array

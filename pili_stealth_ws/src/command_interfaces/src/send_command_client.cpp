@@ -8,7 +8,7 @@ int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
     if (argc != 7) {
-        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "usage: type in 6 commands");
+        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "type in 6 commands ");
         return 1;
     }
     std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("send_command_client");
